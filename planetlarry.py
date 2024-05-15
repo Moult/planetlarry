@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-blogs = {
+urls = {
     "https://thinkmoult.com/feed.atom",
     "https://fitzcarraldoblog.wordpress.com/feed/atom",
 }
@@ -18,8 +18,8 @@ ET.SubElement(feed, "id").text = "https://planetlarry.org/"
 entries = []
 updated_timestamps = []
 
-for blog in blogs:
-    response = requests.get(blog["url"])
+for url in urls:
+    response = requests.get(url)
 
     root = ET.fromstring(response.text)
     ns = {"ns": root.tag.split("{")[1].split("}")[0]}
