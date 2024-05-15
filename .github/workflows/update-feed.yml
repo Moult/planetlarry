@@ -1,4 +1,4 @@
-name: Update feed
+name: update-feed
 
 on:
   schedule:
@@ -21,5 +21,6 @@ jobs:
         python-version: "3.10"
     - name: Run planet larry
       run: |
+        pip install requests
         python planetlarry.py
     - uses: stefanzweifel/git-auto-commit-action@v5
