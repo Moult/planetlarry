@@ -1,0 +1,514 @@
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-05-15T10:31:46</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>How to setup WeeChat for IRC</title>
+
+        <link href="https://thinkmoult.com/setup-weechat-irc.html" />
+        <id>https://thinkmoult.com/setup-weechat-irc.html</id>
+        <updated>2024-05-14</updated>
+        <summary>How to setup WeeChat to connect to IRC chatrooms and stay online 24/7 with a relay server. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">PID file path discrepancy for the clamd service in Gentoo Linux</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6703</id>
+		<updated>2024-05-07T18:10:22Z</updated>
+		<published>2024-05-07T18:10:21Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="anti-virus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="antivirus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ClamAV" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenRC" />
+		<summary type="html">Back in December I noticed that the OpenRC init script for clamd in Gentoo Linux reported the clamd service status as &amp;#8216;crashed&amp;#8217;, when in fact it was still running (I raised Gentoo Linux Bug Report 921088 to report this). The issue arises because the init script (/etc/init.d/clamd) installed by the clamav ebuild specifies the PID [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+        <title>Open source architecture, engineering, and construction chatroom</title>
+
+        <link href="https://thinkmoult.com/open-source-architecture-engineering-construction-chatroom.html" />
+        <id>https://thinkmoult.com/open-source-architecture-engineering-construction-chatroom.html</id>
+        <updated>2024-05-04</updated>
+        <summary>Find, network and chat with other architects online in the Open Source Architecture Matrix chatroom and IRC channel. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Upgrading the Portage Profile to 23.0 in Gentoo Linux (OpenRC) and merging /usr</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/03/upgrading-the-portage-profile-to-23-0-in-gentoo-linux-openrc-and-merging-usr/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6695</id>
+		<updated>2024-05-03T15:32:22Z</updated>
+		<published>2024-05-03T12:05:54Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Portage" />
+		<summary type="html">This week I finally had some spare time to upgrade the Gentoo Linux Portage Profile from 17.1 to 23.0 (see Gentoo Linux News item of 22 March 2024 titled &amp;#8216;Profile upgrade to version 23.0 available&amp;#8216;) in my two Gentoo Linux installations: one Stable (amd64), the other Testing (~amd64). Both installations use OpenRC and therefore they [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/03/upgrading-the-portage-profile-to-23-0-in-gentoo-linux-openrc-and-merging-usr/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/05/03/upgrading-the-portage-profile-to-23-0-in-gentoo-linux-openrc-and-merging-usr/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Installing TrueType font files in Lubuntu 22.04</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/04/23/installing-truetype-font-files-in-lubuntu-22-04/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6691</id>
+		<updated>2024-04-23T11:15:38Z</updated>
+		<published>2024-04-23T11:15:38Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Graphics" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="graphics" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GUI" />
+		<summary type="html">Yesterday I looked through some old CDROMs with a view to disposing of them. I came across one from 2001 from a company called Focus Multimedia Limited, titled &amp;#8216;4,000 fonts &amp;#8211; A comprehensive collection of stylish and professional fonts&amp;#8217; for Windows 95 / 98 / Me / NT / 2000 / XP. It is still [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/04/23/installing-truetype-font-files-in-lubuntu-22-04/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/04/23/installing-truetype-font-files-in-lubuntu-22-04/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+        <title>Which IFC class should I use?</title>
+        <link href="https://blenderbim.org/search-ifc-class.html" />
+        <id>Which IFC class should I use?</id>
+                <updated>2024-04-06</updated>
+        <summary>Physical objects in an IFC file must be categorised to a class of object, which has implications on what properties are expected to be found on the object. This tool lets you type what type of object you have, and it will try and find the right IFC class for you. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Migrating the ebuild repository locations in my Gentoo Linux installations to the current defaults</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/01/08/migrating-the-ebuild-repository-locations-in-my-gentoo-linux-installations-to-the-current-defaults/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6685</id>
+		<updated>2024-01-08T21:06:24Z</updated>
+		<published>2024-01-08T19:35:40Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" />
+		<summary type="html">I installed Gentoo Linux on my two laptops in 2010 and 2015 respectively, long before the distribution&amp;#8217;s developers changed the default locations of the repositories for ebuilds and packages in an installation. In 2023 I modified the two installations to use an eselect module instead of the superseded Layman overlay manager (see my earlier post [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/01/08/migrating-the-ebuild-repository-locations-in-my-gentoo-linux-installations-to-the-current-defaults/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/01/08/migrating-the-ebuild-repository-locations-in-my-gentoo-linux-installations-to-the-current-defaults/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+        <title>Technical demonstrations of Native IFC authoring with free software - buildingSMART UK+I</title>
+        <link href="https://www.youtube.com/watch?v=Ooh05WF__80" />
+        <id>Technical demonstrations of Native IFC authoring with free software - buildingSMART UK+I</id>
+                <updated>2023-12-08</updated>
+        <summary>Practical demonstrations of native IFC authoring already used on live projects with the free software BlenderBIM Add-on presented at a buildingSMART UK+I meetup in 2023. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>IFC show and tell</title>
+        <link href="https://www.youtube.com/watch?v=h2Rv9iu7yDk" />
+        <id>IFC show and tell</id>
+                <updated>2023-11-09</updated>
+        <summary>A minor update to "Introduction to OpenBIM, Native IFC, and Open Source AEC" presented to BIMForum US. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Investigating an OpenVPN connection problem in Gentoo Linux and Lubuntu 22.04 but not in Android 13</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/10/03/investigating-an-openvpn-connection-problem-in-gentoo-linux-and-lubuntu-22-04-but-not-in-android-13/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6669</id>
+		<updated>2023-10-04T13:39:56Z</updated>
+		<published>2023-10-03T15:24:31Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Internet" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Networks" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wired" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wireless" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GUI" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="KDE" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="laptop" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="networks" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenSSL" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenVPN" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="TLS" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="VPN" />
+		<summary type="html">Back in 2020 I successfully used OpenVPN to access a remote server from my laptop and from my smartphone. Fast forward to 2023 and I needed to use OpenVPN again to access the same remote server. I could again access the remote server when connecting from my smartphone, now running Android 13, using the OpenVPN [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/10/03/investigating-an-openvpn-connection-problem-in-gentoo-linux-and-lubuntu-22-04-but-not-in-android-13/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/10/03/investigating-an-openvpn-connection-problem-in-gentoo-linux-and-lubuntu-22-04-but-not-in-android-13/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Layman overlay manager in Gentoo Linux superseded by eselect module</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/07/04/layman-overlay-manager-in-gentoo-linux-superseded-by-eselect-module/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6662</id>
+		<updated>2023-07-04T12:10:56Z</updated>
+		<published>2023-07-04T12:10:56Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" />
+		<summary type="html">Last week, when upgrading the world packages on my machines running Gentoo Linux, I noticed that the package for the Layman overlay manager app-portage/layman is masked for removal: root # eix -I layman [?] app-portage/layman Available versions: [M]2.4.3^t [M]**9999*l^t {cvs darcs g-sorcery +git gpg mercurial sqlite squashfs subversion sync-plugin-portage test PYTHON_TARGETS="pypy3 python3_10 python3_11"} Installed versions: [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/07/04/layman-overlay-manager-in-gentoo-linux-superseded-by-eselect-module/#comments" ns0:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/07/04/layman-overlay-manager-in-gentoo-linux-superseded-by-eselect-module/feed/atom/" ns0:count="1" />
+			<total>1</total>
+			</entry>
+		<entry>
+        <title>NetHack damage calculator</title>
+
+        <link href="https://thinkmoult.com/nethack-damage-calculator.html" />
+        <id>https://thinkmoult.com/nethack-damage-calculator.html</id>
+        <updated>2023-06-21</updated>
+        <summary>This calculator for the game NetHack helps compare damage outputs from weapons, spells, and wands. It's shown in both graph and table form. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Disabling the DebugLoggerUI service app in Android</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6657</id>
+		<updated>2023-03-05T15:02:52Z</updated>
+		<published>2023-03-05T15:01:45Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ADB" />
+		<summary type="html">The following notification appeared every time I switched on my Blackview Tab 10 tablet (Android 11): DebugLoggerUI DebugLoggerUI service is running I cannot remember if this notification started appearing after I upgraded the tablet&amp;#8217;s firmware last year to remove a bug in the original firmware (I had contacted Blackview and they supplied me with the [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/#comments" ns0:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/feed/atom/" ns0:count="3" />
+			<total>3</total>
+			</entry>
+		<entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Replacing the cracked screen on a Blackview Tab 10 tablet</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/02/15/replacing-the-cracked-screen-on-a-blackview-tab-10-tablet/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6649</id>
+		<updated>2023-02-15T02:02:34Z</updated>
+		<published>2023-02-15T02:02:34Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Blackview" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="tablet" />
+		<summary type="html">In a previous post I mentioned that the LCD touchscreen of my Blackview Tab 10 tablet had partially popped out of the tablet&amp;#8217;s plastic housing and had developed a crack when I tried to push it back in, as can be seen in the photograph below. I decided to try to replace the damaged screen, [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/02/15/replacing-the-cracked-screen-on-a-blackview-tab-10-tablet/#comments" ns0:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/02/15/replacing-the-cracked-screen-on-a-blackview-tab-10-tablet/feed/atom/" ns0:count="1" />
+			<total>1</total>
+			</entry>
+		<entry>
+        <title>NetHack: an illustrated guide to the Mazes of Menace</title>
+
+        <link href="https://thinkmoult.com/nethack-illustrated-guide-mazes-of-menace.html" />
+        <id>https://thinkmoult.com/nethack-illustrated-guide-mazes-of-menace.html</id>
+        <updated>2022-12-28</updated>
+        <summary>A visual guide to NetHack, describing the stages of the game illustrated with AI generated imagery. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Continuing my familiarisation with GeckoLinux/openSUSE</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2022/12/23/continuing-my-familiarisation-with-geckolinux-opensuse/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6636</id>
+		<updated>2022-12-23T17:08:01Z</updated>
+		<published>2022-12-23T17:08:01Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GeckoLinux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Networks" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wired" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wireless" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="openSUSE" />
+		<summary type="html">In an earlier post I described how I installed and configured GeckoLinux on an old nettop. GeckoLinux is actually pre-configured openSUSE: GeckoLinux is a set of Linux spins built from the openSUSE distribution, with a focus on polish and out-of-the-box usability on the desktop. It is available in Static (based on openSUSE Leap) and Rolling [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2022/12/23/continuing-my-familiarisation-with-geckolinux-opensuse/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2022/12/23/continuing-my-familiarisation-with-geckolinux-opensuse/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+		<entry>
+        <title>How do colours work in IFC?</title>
+        <link href="https://community.osarch.org/discussion/comment/13744/#Comment_13744" />
+        <id>How do colours work in IFC?</id>
+                <updated>2022-11-18</updated>
+        <summary>A detailed explanation of how colours work in IFC. Colours seem deceptively simple, but are often confused with physical materials. Colours may be used for simple shading, rendering, and light simulation. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">Prevent Lubuntu 22.04 (SDDM and LXQt) from leaving an external drive mounted incorrectly for other users</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2022/11/07/prevent-lubuntu-22-04-sddm-and-lxqt-from-leaving-an-external-drive-mounted-incorrectly-for-other-users/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6628</id>
+		<updated>2022-11-07T23:52:10Z</updated>
+		<published>2022-11-07T23:52:10Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu" />
+		<summary type="html">An external USB disk drive is connected permanently to my family&amp;#8217;s PC that currently has Lubuntu 22.04 installed. There are several user accounts on this multi-user single-seat machine. If a user does not unmount the external drive before logging out, when another user logs in, the external drive is still mounted with the priviledges of [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2022/11/07/prevent-lubuntu-22-04-sddm-and-lxqt-from-leaving-an-external-drive-mounted-incorrectly-for-other-users/#comments" ns0:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2022/11/07/prevent-lubuntu-22-04-sddm-and-lxqt-from-leaving-an-external-drive-mounted-incorrectly-for-other-users/feed/atom/" ns0:count="0" />
+			<total>0</total>
+			</entry>
+	<entry>
+        <title>Understanding textures and shaders in IFC, X3D, and glTF</title>
+        <link href="https://community.osarch.org/discussion/877/understanding-how-textures-and-shaders-work-in-ifc" />
+        <id>Understanding textures and shaders in IFC, X3D, and glTF</id>
+                <updated>2022-01-31</updated>
+        <summary>I analyse how IFC4 has implemented shaders and textures based on X3D, and propose a series of backward compatible changes for IFC4X3 to modernise and simplify shader definitions in line with X3D4 and glTF. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Introduction to OpenBIM, Native IFC, and Open Source AEC</title>
+        <link href="https://www.youtube.com/watch?v=h2Rv9iu7yDk" />
+        <id>Introduction to OpenBIM, Native IFC, and Open Source AEC</id>
+                <updated>2021-07-24</updated>
+        <summary>This introduction to OpenBIM, Native IFC, and Open Source AEC was given as a keynote speech at the CAAD Futures conference in 2021. CAAD Futures is a biannual international conference on computational architecture founded in 1985. This introduction to Native IFC covers all the basic concepts, code, libraries, and tools to get started building your own Open Source AEC tools. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Free / libre &amp; Open Source software in AEC, and how it impacts OpenBIM - buildingSMART Summit 2020</title>
+        <link href="https://www.youtube.com/watch?v=DK4zmfkp_pw" />
+        <id>Free / libre &amp; Open Source software in AEC, and how it impacts OpenBIM - buildingSMART Summit 2020</id>
+                <updated>2020-10-28</updated>
+        <summary>Open source and OpenBIM complement each other, helping empower the users and processes of the Architecture, Engineering, and Construction industry. This presentation talks about the history of free software in the AEC industry, and the work done by the OSArch.org community to bring OpenBIM into our digitally enabled future. This talk was presented at the buildingSMART Summit 2020 under the technology section. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Effective altruism and living a net-positive life</title>
+
+        <link href="https://thinkmoult.com/effective-altruism-living-net-positive-life.html" />
+        <id>https://thinkmoult.com/effective-altruism-living-net-positive-life.html</id>
+        <updated>2019-08-02</updated>
+        <summary>I describe how average individuals can impact the world in a positive way in all aspects of their living, all under a budget of 200 dollars a month. The net-positive lifestyle uses concepts of biocapacity, ecological accounting, and effective altruism. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>IFC Coordinate Reference Systems and Revit</title>
+
+        <link href="https://thinkmoult.com/ifc-coordinate-reference-systems-and-revit.html" />
+        <id>https://thinkmoult.com/ifc-coordinate-reference-systems-and-revit.html</id>
+        <updated>2019-05-21</updated>
+        <summary>BIM projects have to specify Coordinate Reference Systems and their relationship to surveyed points and project origins in order to reliably geolocate geometry. I describe how this works with IFC, and the current state of compatibility with Revit. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Point cloud mesh reconstruction with metaballs</title>
+
+        <link href="https://thinkmoult.com/point-cloud-mesh-reconstruction-with-metaballs.html" />
+        <id>https://thinkmoult.com/point-cloud-mesh-reconstruction-with-metaballs.html</id>
+        <updated>2019-05-15</updated>
+        <summary>3D scanning results in a point cloud which often needs to be converted into a closed mesh surface. In this article I propose a new technique of mesh reconstruction using metaballs. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Robotic wire cutting toolpath generation with Blender</title>
+
+        <link href="https://thinkmoult.com/robotic-wire-cutting-toolpath-generation-with-blender.html" />
+        <id>https://thinkmoult.com/robotic-wire-cutting-toolpath-generation-with-blender.html</id>
+        <updated>2019-05-06</updated>
+        <summary>Most toolpath generation focuses on minimising material wastage, tool wear, and robot movements. This article describes an alternative approach that uses the U/V direction of a surface, its edge loops, and edge rings, to intuitively describe a toolpath. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Photorealistic rendering with Radiance</title>
+
+        <link href="https://thinkmoult.com/photorealistic-rendering-with-radiance.html" />
+        <id>https://thinkmoult.com/photorealistic-rendering-with-radiance.html</id>
+        <updated>2019-05-04</updated>
+        <summary>Radiance is rarely used for photorealistic rendering. This case study of rendering my living room demonstrates that it is possible to be both aesthetically believable and scientifically accurate. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Creating grass and plants in Radiance</title>
+
+        <link href="https://thinkmoult.com/creating-grass-and-plants-in-radiance.html" />
+        <id>https://thinkmoult.com/creating-grass-and-plants-in-radiance.html</id>
+        <updated>2019-05-01</updated>
+        <summary>Radiance is seldom used for rendering detailed vegetation such as grass and plants. I introduce how to use common CG techniques to still achieve photorealistic grass in Radiance. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Ten Smiles, an Android app to remind you to smile</title>
+
+        <link href="https://thinkmoult.com/ten-smiles-android-app-to-remind-you-to-smile.html" />
+        <id>https://thinkmoult.com/ten-smiles-android-app-to-remind-you-to-smile.html</id>
+        <updated>2019-04-26</updated>
+        <summary>Ten Smiles is a small, free, Android app that reminds you to smile 10 times each day. I wrote it for fun a few years ago. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>How to bulk convert PDFs to DXF or DWG</title>
+
+        <link href="https://thinkmoult.com/how-to-bulk-convert-pdf-to-dxf-or-dwg.html" />
+        <id>https://thinkmoult.com/how-to-bulk-convert-pdf-to-dxf-or-dwg.html</id>
+        <updated>2019-04-02</updated>
+        <summary>Inkscape and pstoedit can be used to convert between PDF, EPS, DXF, and DWG on the command line. This is very useful when bulk file conversions need to be done. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>The ethical implications of OpenBIM</title>
+
+        <link href="https://thinkmoult.com/ethical-implications-of-openbim.html" />
+        <id>https://thinkmoult.com/ethical-implications-of-openbim.html</id>
+        <updated>2019-03-25</updated>
+        <summary>OpenBIM is an initiative to promote the use of open data in the architecture, engineering and construction industry. I describe how using OpenBIM has positive ethical implications. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Free intervals sheet music</title>
+
+        <link href="https://thinkmoult.com/free-intervals-sheet-music.html" />
+        <id>https://thinkmoult.com/free-intervals-sheet-music.html</id>
+        <updated>2019-03-21</updated>
+        <summary>Intervals are a fundamental concept in learning music. This free downloadable sheet music helps give examples and illustrates the relationships between notes. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Why Radiance needs a free 3D model repository</title>
+
+        <link href="https://thinkmoult.com/radiance-free-3d-model-repository.html" />
+        <id>https://thinkmoult.com/radiance-free-3d-model-repository.html</id>
+        <updated>2019-03-17</updated>
+        <summary>The Radiance free 3D model repository is the world's first photometrically accurate model repository, with a focus on both correctness and aesthetics. It is completely open-source and free to mirror and redistribute. You can download models as an OBJ, along with material and light definitions. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>The five fundamental facets of ethical software</title>
+
+        <link href="https://thinkmoult.com/five-fundamental-facets-of-ethical-software.html" />
+        <id>https://thinkmoult.com/five-fundamental-facets-of-ethical-software.html</id>
+        <updated>2019-03-15</updated>
+        <summary>Technology is increasingly trending towards proprietary forms, which have negative impacts on society. I describe the 5 fundamental ingredients to keep software honest, and prioritise people over profit. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>How to create better IFC files with Revit</title>
+
+        <link href="https://thinkmoult.com/how-to-create-better-ifc-files-with-revit.html" />
+        <id>https://thinkmoult.com/how-to-create-better-ifc-files-with-revit.html</id>
+        <updated>2019-03-12</updated>
+        <summary>This is an introduction to the fundamental concepts of IFC files and explains how to improve data exports from Autodesk Revit to IFC. Out of the box, Revit IFC support is very limited, but it can be mitigated using an open-source plugin and understanding these undocumented quirks. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>A comparison between Radiance and other rendering engines</title>
+
+        <link href="https://thinkmoult.com/a-comparison-between-radiance-and-other-rendering-engines.html" />
+        <id>https://thinkmoult.com/a-comparison-between-radiance-and-other-rendering-engines.html</id>
+        <updated>2019-03-06</updated>
+        <summary>This posts compares Radiance with modern rendering engines, such as Renderman and Autodesk Insight. Radiance is seen as the gold standard for light simulation, but more modern engines are becoming more physically based and claim photorealistic results at a fraction of the time. Why should we use one over the other? - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>How to composite Enscape animations with Blender</title>
+
+        <link href="https://thinkmoult.com/how-to-composite-enscape-animations-with-blender.html" />
+        <id>https://thinkmoult.com/how-to-composite-enscape-animations-with-blender.html</id>
+        <updated>2019-02-25</updated>
+        <summary>Enscape provides real-time rendering with integration with BIM tools such as Revit, ArchiCAD, and Sketchup. However, it has a limited set of animation tools. Blender can be used to import Enscape camera animation keyframes and composite new animations on top of the Enscape flythrough. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>A proposed Radiance Filesystem Hierarchy Standard</title>
+
+        <link href="https://thinkmoult.com/proposed-radiance-filesystem-hierarchy-standard.html" />
+        <id>https://thinkmoult.com/proposed-radiance-filesystem-hierarchy-standard.html</id>
+        <updated>2019-02-17</updated>
+        <summary>The proposed Radiance Filesystem Hierarchy Standard (RFHS) is a proposed standard on how to organise files for 3D models, HDR textures, Radiance materials, IES lights, and so on in a Radiance project. This allows Radiance assets to be easily distributed and reused across different proejcts. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Using IfcOpenShell to parse IFC files with Python</title>
+
+        <link href="https://thinkmoult.com/using-ifcopenshell-parse-ifc-files-python.html" />
+        <id>https://thinkmoult.com/using-ifcopenshell-parse-ifc-files-python.html</id>
+        <updated>2019-02-12</updated>
+        <summary>IFC is the ISO standard format for storing BIM data. IfcOpenShell allows you to use Python to query and parse IFC files to extract and analyse data. As there is no API documentation as of writing, these code examples give an introduction demo to how to read IFC files. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Free major and minor arpeggios for piano sheet music</title>
+
+        <link href="https://thinkmoult.com/free-major-and-minor-arpeggios-for-piano-sheet-music.html" />
+        <id>https://thinkmoult.com/free-major-and-minor-arpeggios-for-piano-sheet-music.html</id>
+        <updated>2019-01-31</updated>
+        <summary>Download free piano sheet music for major and minor arpeggios for all keys. Includes fingering annotation and typeset in LaTeX, exported in PDF format. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Embed Peertube videos on your website</title>
+
+        <link href="https://thinkmoult.com/embed-peertube-video-on-your-website.html" />
+        <id>https://thinkmoult.com/embed-peertube-video-on-your-website.html</id>
+        <updated>2019-01-19</updated>
+        <summary>Peertube videos can be embedded directly on your website using an iframe with no Javascript required. This short example demonstrates how. Peertube is a distributed peer-to-peer network of video sharing websites. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>How to view BIM IFC files on Linux</title>
+
+        <link href="https://thinkmoult.com/how-to-view-bim-ifc-files-linux.html" />
+        <id>https://thinkmoult.com/how-to-view-bim-ifc-files-linux.html</id>
+        <updated>2019-01-12</updated>
+        <summary>BIM IFC (Industry Foundation Classes) files can be viewed and parsed on Linux in a few ways. I describe how to open IFC files with FreeCAD, IfcPlusPlus, and IfcOpenShell. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>How to install Blender and The GIMP on Android</title>
+
+        <link href="https://thinkmoult.com/how-to-install-blender-gimp-android.html" />
+        <id>https://thinkmoult.com/how-to-install-blender-gimp-android.html</id>
+        <updated>2019-01-10</updated>
+        <summary>How to install and run Blender and the GIMP on Android phones using Gentoo Linux. This runs Blender and The GIMP as a native app with full desktop functionality. This also demonstrates two desktop environments: Fluxbox and E17 and shows running Midori as a browser. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Create 360 VR panoramas with Radiance</title>
+
+        <link href="https://thinkmoult.com/create-360-vr-panoramas-with-radiance.html" />
+        <id>https://thinkmoult.com/create-360-vr-panoramas-with-radiance.html</id>
+        <updated>2019-01-05</updated>
+        <summary>How to use the Radiance rendering engine to render out different types of 360 panoramas for virtual reality. Create cube maps, equirectangular panoramas, sphere maps, fisheye views, and other environment maps. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Use macbethcal to calibrate textures</title>
+
+        <link href="https://thinkmoult.com/use-macbethcal-to-calibrate-textures.html" />
+        <id>https://thinkmoult.com/use-macbethcal-to-calibrate-textures.html</id>
+        <updated>2018-12-30</updated>
+        <summary>Use macbethcal to calibrate image textures that are used in a Radiance render with a colour chart. This helps to make sure that they represent the true colours of the real-life object. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Free Buddhist vector logos</title>
+
+        <link href="https://thinkmoult.com/free-buddhist-vector-logos.html" />
+        <id>https://thinkmoult.com/free-buddhist-vector-logos.html</id>
+        <updated>2018-12-29</updated>
+        <summary>I've created three free Buddhist related vector logos for any use. They are created using Inkscape, a free and open source vector graphics program. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Radiance specularity and roughness value examples</title>
+
+        <link href="https://thinkmoult.com/radiance-specularity-and-roughness-value-examples.html" />
+        <id>https://thinkmoult.com/radiance-specularity-and-roughness-value-examples.html</id>
+        <updated>2018-12-27</updated>
+        <summary>Radiance specularity and roughness values are hard to measure without special equipment. This article describes measurement techniques and rules of thumb, along with benchmark images to understand specularity and roughness. These images help give an intuitive understanding of material properties. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Map of the Great North Walk: Sydney to Newcastle</title>
+
+        <link href="https://thinkmoult.com/map-of-the-great-north-walk-sydney-to-newcastle.html" />
+        <id>https://thinkmoult.com/map-of-the-great-north-walk-sydney-to-newcastle.html</id>
+        <updated>2018-12-25</updated>
+        <summary>The Great North Walk is a 250km trail that goes from Sydney to Newcastle. I've created a free online map you can use to guide yourself from start to finish, and download a GeoJSON or GPX file to use in your GPS devices. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>thinkMoult Atom / RSS feed</title>
+
+        <link href="https://thinkmoult.com/atom-feed.html" />
+        <id>https://thinkmoult.com/atom-feed.html</id>
+        <updated>2018-12-15</updated>
+        <summary>Subscribe to Dion Moult's blog and online articles using Atom / RSS. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Free 3D lamp model</title>
+
+        <link href="https://thinkmoult.com/free-3d-lamp-model.html" />
+        <id>https://thinkmoult.com/free-3d-lamp-model.html</id>
+        <updated>2018-12-13</updated>
+        <summary>Download a free 3D model of a lamp in OBJ format and Blender format for use in renderings and architectural visualisation. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Why Revit is shit</title>
+
+        <link href="https://thinkmoult.com/why-revit-is-shit.html" />
+        <id>https://thinkmoult.com/why-revit-is-shit.html</id>
+        <updated>2018-12-11</updated>
+        <summary>Revit is a proprietary software package developed by Autodesk, an industry monopoly that consistently underdelivers when architects, engineers, and builders attempt to execute a BIM project. With OpenBIM still yet to mature, here is a list of criticisms of the software's limitations. - for the full content please visit the website.</summary>
+    </entry>
+    </feed>
