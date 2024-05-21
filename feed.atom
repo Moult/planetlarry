@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-05-20T01:20:49</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-05-21T01:20:15</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>How to setup WeeChat for IRC</title>
 
         <link href="https://thinkmoult.com/setup-weechat-irc.html" />
@@ -18,7 +18,7 @@
 		<id>http://fitzcarraldoblog.wordpress.com/?p=6703</id>
 		<updated>2024-05-07T18:10:22Z</updated>
 		<published>2024-05-07T18:10:21Z</published>
-		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="anti-virus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="antivirus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ClamAV" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenRC" />
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="anti-virus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="antivirus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ClamAV" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenRC" />
 		<summary type="html">Back in December I noticed that the OpenRC init script for clamd in Gentoo Linux reported the clamd service status as &amp;#8216;crashed&amp;#8217;, when in fact it was still running (I raised Gentoo Linux Bug Report 921088 to report this). The issue arises because the init script (/etc/init.d/clamd) installed by the clamav ebuild specifies the PID [&amp;#8230;]</summary>
 
 		
