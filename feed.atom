@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-07-10T01:26:09</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-07-11T01:26:29</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>How to setup WeeChat for IRC</title>
 
         <link href="https://thinkmoult.com/setup-weechat-irc.html" />
