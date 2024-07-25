@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-07-24T01:33:21</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-07-25T01:26:30</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>How to setup WeeChat for IRC</title>
 
         <link href="https://thinkmoult.com/setup-weechat-irc.html" />
@@ -22,9 +22,9 @@
 		<summary type="html">Back in December I noticed that the OpenRC init script for clamd in Gentoo Linux reported the clamd service status as &amp;#8216;crashed&amp;#8217;, when in fact it was still running (I raised Gentoo Linux Bug Report 921088 to report this). The issue arises because the init script (/etc/init.d/clamd) installed by the clamav ebuild specifies the PID [&amp;#8230;]</summary>
 
 		
-					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/#comments" ns0:count="0" />
-			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/feed/atom/" ns0:count="0" />
-			<total>0</total>
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/#comments" ns0:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/feed/atom/" ns0:count="1" />
+			<total>1</total>
 			</entry>
 		<entry>
         <title>Open source architecture, engineering, and construction chatroom</title>
