@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-08-09T01:35:40</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-08-10T01:34:56</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
 		<author>
 			<name>Fitzcarraldo</name>
 							<uri>https://fitzcarraldoblog.wordpress.com</uri>
@@ -8,7 +8,7 @@
 		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/08/08/replacing-xscreensaver-with-xsecurelock-for-the-lock-screen-in-lubuntu-22-04/" />
 
 		<id>http://fitzcarraldoblog.wordpress.com/?p=6707</id>
-		<updated>2024-08-08T23:37:40Z</updated>
+		<updated>2024-08-09T09:13:00Z</updated>
 		<published>2024-08-08T23:03:12Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="lockscreen" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="screensaver" />
 		<summary type="html">LXQt in Lubuntu 22.04 uses XScreenSaver to provide both the screen saver and lock screen, and XScreenSaver appears to be tightly integrated with LXQt. My family had the following configuration for the screensaver and for session locking in their individual user accounts on the family desktop computer: 1. XScreenSaver was installed by default in Lubuntu [&amp;#8230;]</summary>
