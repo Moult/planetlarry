@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-11-30T01:49:34</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-01T02:08:41</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>Using elinks to browse the web</title>
+
+        <link href="https://thinkmoult.com/using-elinks-browse-web.html" />
+        <id>https://thinkmoult.com/using-elinks-browse-web.html</id>
+        <updated>2024-11-30</updated>
+        <summary>Elinks is the most well maintained, feature-rich command line text browser available today. I demonstrate how you can use it for every day browsing, and where it still falls short. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
 		<author>
 			<name>Fitzcarraldo</name>
 							<uri>https://fitzcarraldoblog.wordpress.com</uri>
@@ -502,13 +510,5 @@
         <id>https://thinkmoult.com/free-3d-lamp-model.html</id>
         <updated>2018-12-13</updated>
         <summary>Download a free 3D model of a lamp in OBJ format and Blender format for use in renderings and architectural visualisation. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Why Revit is shit</title>
-
-        <link href="https://thinkmoult.com/why-revit-is-shit.html" />
-        <id>https://thinkmoult.com/why-revit-is-shit.html</id>
-        <updated>2018-12-11</updated>
-        <summary>Revit is a proprietary software package developed by Autodesk, an industry monopoly that consistently underdelivers when architects, engineers, and builders attempt to execute a BIM project. With OpenBIM still yet to mature, here is a list of criticisms of the software's limitations. - for the full content please visit the website.</summary>
     </entry>
     </feed>
