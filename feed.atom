@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-02T01:56:35</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-03T01:54:53</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>Using elinks to browse the web</title>
 
         <link href="https://thinkmoult.com/using-elinks-browse-web.html" />
@@ -104,7 +104,7 @@
 			</entry>
 		<entry>
         <title>Which IFC class should I use?</title>
-        <link href="https://blenderbim.org/search-ifc-class.html" />
+        <link href="https://bonsaibim.org/search-ifc-class.html" />
         <id>Which IFC class should I use?</id>
                 <updated>2024-04-06</updated>
         <summary>Physical objects in an IFC file must be categorised to a class of object, which has implications on what properties are expected to be found on the object. This tool lets you type what type of object you have, and it will try and find the right IFC class for you. - for the full content please visit the website.</summary>
@@ -265,6 +265,13 @@
         <id>How do colours work in IFC?</id>
                 <updated>2022-11-18</updated>
         <summary>A detailed explanation of how colours work in IFC. Colours seem deceptively simple, but are often confused with physical materials. Colours may be used for simple shading, rendering, and light simulation. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
+        <title>Native OpenBIM and the rise of Open Source in AEC</title>
+        <link href="https://aecmag.com/collaboration/native-openbim-and-the-rise-of-open-source-in-aec/" />
+        <id>Native OpenBIM and the rise of Open Source in AEC</id>
+                <updated>2022-07-11</updated>
+        <summary>A description of the limitations behind translated OpenBIM, and how native OpenBIM with free software is changing the industry. - for the full content please visit the website.</summary>
     </entry>
     <entry>
         <title>Understanding textures and shaders in IFC, X3D, and glTF</title>
@@ -502,13 +509,5 @@
         <id>https://thinkmoult.com/atom-feed.html</id>
         <updated>2018-12-15</updated>
         <summary>Subscribe to Dion Moult's blog and online articles using Atom / RSS. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Free 3D lamp model</title>
-
-        <link href="https://thinkmoult.com/free-3d-lamp-model.html" />
-        <id>https://thinkmoult.com/free-3d-lamp-model.html</id>
-        <updated>2018-12-13</updated>
-        <summary>Download a free 3D model of a lamp in OBJ format and Blender format for use in renderings and architectural visualisation. - for the full content please visit the website.</summary>
     </entry>
     </feed>
