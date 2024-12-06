@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-05T01:55:12</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-06T01:53:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>Exploring Gemini, a modern take on the traditional web document</title>
+
+        <link href="https://thinkmoult.com/exploring-gemini.html" />
+        <id>https://thinkmoult.com/exploring-gemini.html</id>
+        <updated>2024-12-05</updated>
+        <summary>Gemini is a grassroots effort to resurrect a document focused internet. I discuss my personal experience of the evolution of the web, and thoughts on the protocol. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
         <title>Using elinks to browse the web</title>
 
         <link href="https://thinkmoult.com/using-elinks-browse-web.html" />
@@ -501,13 +509,5 @@
         <id>https://thinkmoult.com/map-of-the-great-north-walk-sydney-to-newcastle.html</id>
         <updated>2018-12-25</updated>
         <summary>The Great North Walk is a 250km trail that goes from Sydney to Newcastle. I've created a free online map you can use to guide yourself from start to finish, and download a GeoJSON or GPX file to use in your GPS devices. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>thinkMoult Atom / RSS feed</title>
-
-        <link href="https://thinkmoult.com/atom-feed.html" />
-        <id>https://thinkmoult.com/atom-feed.html</id>
-        <updated>2018-12-15</updated>
-        <summary>Subscribe to Dion Moult's blog and online articles using Atom / RSS. - for the full content please visit the website.</summary>
     </entry>
     </feed>
