@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-06T01:53:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-07T01:52:56</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>Exploring Gemini, a modern take on the traditional web document</title>
 
         <link href="https://thinkmoult.com/exploring-gemini.html" />
@@ -268,6 +268,14 @@
 			<total>0</total>
 			</entry>
 	<entry>
+        <title>My current hardware</title>
+
+        <link href="https://thinkmoult.com/current-hardware.html" />
+        <id>https://thinkmoult.com/current-hardware.html</id>
+        <updated>2022-11-22</updated>
+        <summary>A description of the hardware I currently use, purchased preloaded with Linux. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
         <title>How do colours work in IFC?</title>
         <link href="https://community.osarch.org/discussion/comment/13744/#Comment_13744" />
         <id>How do colours work in IFC?</id>
@@ -501,13 +509,5 @@
         <id>https://thinkmoult.com/radiance-specularity-and-roughness-value-examples.html</id>
         <updated>2018-12-27</updated>
         <summary>Radiance specularity and roughness values are hard to measure without special equipment. This article describes measurement techniques and rules of thumb, along with benchmark images to understand specularity and roughness. These images help give an intuitive understanding of material properties. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Map of the Great North Walk: Sydney to Newcastle</title>
-
-        <link href="https://thinkmoult.com/map-of-the-great-north-walk-sydney-to-newcastle.html" />
-        <id>https://thinkmoult.com/map-of-the-great-north-walk-sydney-to-newcastle.html</id>
-        <updated>2018-12-25</updated>
-        <summary>The Great North Walk is a 250km trail that goes from Sydney to Newcastle. I've created a free online map you can use to guide yourself from start to finish, and download a GeoJSON or GPX file to use in your GPS devices. - for the full content please visit the website.</summary>
     </entry>
     </feed>
