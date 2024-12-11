@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-10T01:56:33</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-11T01:54:52</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>pyttyplay: a NetHack ttyrec player in Python</title>
+
+        <link href="https://thinkmoult.com/pyttyplay-nethack-player.html" />
+        <id>https://thinkmoult.com/pyttyplay-nethack-player.html</id>
+        <updated>2024-12-10</updated>
+        <summary>A ttyrec player written in Python, tailored for playing back NetHack recordings. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
         <title>Exploring Gemini, a modern take on the traditional web document</title>
 
         <link href="https://thinkmoult.com/exploring-gemini.html" />
@@ -501,13 +509,5 @@
         <id>https://thinkmoult.com/free-buddhist-vector-logos.html</id>
         <updated>2018-12-29</updated>
         <summary>I've created three free Buddhist related vector logos for any use. They are created using Inkscape, a free and open source vector graphics program. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Radiance specularity and roughness value examples</title>
-
-        <link href="https://thinkmoult.com/radiance-specularity-and-roughness-value-examples.html" />
-        <id>https://thinkmoult.com/radiance-specularity-and-roughness-value-examples.html</id>
-        <updated>2018-12-27</updated>
-        <summary>Radiance specularity and roughness values are hard to measure without special equipment. This article describes measurement techniques and rules of thumb, along with benchmark images to understand specularity and roughness. These images help give an intuitive understanding of material properties. - for the full content please visit the website.</summary>
     </entry>
     </feed>
