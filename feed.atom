@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-14T01:51:14</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-15T02:01:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>pyttyplay: a NetHack ttyrec player in Python</title>
 
         <link href="https://thinkmoult.com/pyttyplay-nethack-player.html" />
