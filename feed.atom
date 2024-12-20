@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-19T01:51:35</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2024-12-20T01:46:06</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>Software I like</title>
+
+        <link href="https://thinkmoult.com/software.html" />
+        <id>https://thinkmoult.com/software.html</id>
+        <updated>2024-12-20</updated>
+        <summary>A list of software I recommend. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
         <title>pyttyplay: a NetHack ttyrec player in Python</title>
 
         <link href="https://thinkmoult.com/pyttyplay-nethack-player.html" />
@@ -501,13 +509,5 @@
         <id>https://thinkmoult.com/use-macbethcal-to-calibrate-textures.html</id>
         <updated>2018-12-30</updated>
         <summary>Use macbethcal to calibrate image textures that are used in a Radiance render with a colour chart. This helps to make sure that they represent the true colours of the real-life object. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Free Buddhist vector logos</title>
-
-        <link href="https://thinkmoult.com/free-buddhist-vector-logos.html" />
-        <id>https://thinkmoult.com/free-buddhist-vector-logos.html</id>
-        <updated>2018-12-29</updated>
-        <summary>I've created three free Buddhist related vector logos for any use. They are created using Inkscape, a free and open source vector graphics program. - for the full content please visit the website.</summary>
     </entry>
     </feed>
