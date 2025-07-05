@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-07-04T02:06:02</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-07-05T02:02:06</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>Software I like</title>
 
         <link href="https://thinkmoult.com/software.html" />
@@ -231,9 +231,9 @@
 		<summary type="html">The following notification appeared every time I switched on my Blackview Tab 10 tablet (Android 11): DebugLoggerUI DebugLoggerUI service is running I cannot remember if this notification started appearing after I upgraded the tablet&amp;#8217;s firmware last year to remove a bug in the original firmware (I had contacted Blackview and they supplied me with the [&amp;#8230;]</summary>
 
 		
-					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/#comments" ns0:count="3" />
-			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/feed/atom/" ns0:count="3" />
-			<total>3</total>
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/#comments" ns0:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/feed/atom/" ns0:count="4" />
+			<total>4</total>
 			</entry>
 		<entry>
 		<author>
