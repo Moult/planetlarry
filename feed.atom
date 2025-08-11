@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-08-10T02:27:38</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-08-11T02:23:34</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>Threadbare</title>
+
+        <link href="https://thinkmoult.com/threadbare-frugal-php-forum.html" />
+        <id>https://thinkmoult.com/threadbare-frugal-php-forum.html</id>
+        <updated>2025-04-28</updated>
+        <summary>A frugal online PHP forum script which works completely without Javascript. - for the full content please visit the website.</summary>
+    </entry>
+    <entry>
         <title>Software I like</title>
 
         <link href="https://thinkmoult.com/software.html" />
@@ -501,13 +509,5 @@
         <id>https://thinkmoult.com/create-360-vr-panoramas-with-radiance.html</id>
         <updated>2019-01-05</updated>
         <summary>How to use the Radiance rendering engine to render out different types of 360 panoramas for virtual reality. Create cube maps, equirectangular panoramas, sphere maps, fisheye views, and other environment maps. - for the full content please visit the website.</summary>
-    </entry>
-    <entry>
-        <title>Use macbethcal to calibrate textures</title>
-
-        <link href="https://thinkmoult.com/use-macbethcal-to-calibrate-textures.html" />
-        <id>https://thinkmoult.com/use-macbethcal-to-calibrate-textures.html</id>
-        <updated>2018-12-30</updated>
-        <summary>Use macbethcal to calibrate image textures that are used in a Radiance render with a colour chart. This helps to make sure that they represent the true colours of the real-life object. - for the full content please visit the website.</summary>
     </entry>
     </feed>
