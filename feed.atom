@@ -1,24 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-10-03T01:50:30</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
-		<author>
-			<name>Fitzcarraldo</name>
-							<uri>https://fitzcarraldoblog.wordpress.com</uri>
-						</author>
-
-		<title type="html">After using Gentoo Linux and KDE for 15 years I have switched to Lubuntu (LXQt)</title>
-		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/" />
-
-		<id>http://fitzcarraldoblog.wordpress.com/?p=6727</id>
-		<updated>2025-09-29T16:19:06Z</updated>
-		<published>2025-08-18T15:44:20Z</published>
-		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GeckoLinux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="KDE" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="LXQt" />
-		<summary type="html">The demise of my laptops Recently both my laptops &amp;#8211; a ten-year-old 14&amp;#8243; Clevo W230SS running the stable version of Gentoo Linux, and a fifteen-year-old 15.6&amp;#8243; Compal NBLB2 running the testing version of Gentoo Linux &amp;#8211; died. The Clevo laptop was my main machine. They had been heavily used in succession for work and personal [&amp;#8230;]</summary>
-
-		
-					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/#comments" ns0:count="5" />
-			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/feed/atom/" ns0:count="5" />
-			<total>5</total>
-			</entry>
-		<entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-10-04T01:46:28</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
 		<author>
 			<name>Fitzcarraldo</name>
 							<uri>https://fitzcarraldoblog.wordpress.com</uri>
@@ -37,6 +17,26 @@
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/09/04/resurrecting-my-legacy-asrock-ion330ht-nettop/#comments" ns0:count="0" />
 			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2025/09/04/resurrecting-my-legacy-asrock-ion330ht-nettop/feed/atom/" ns0:count="0" />
 			<total>0</total>
+			</entry>
+		<entry>
+		<author>
+			<name>Fitzcarraldo</name>
+							<uri>https://fitzcarraldoblog.wordpress.com</uri>
+						</author>
+
+		<title type="html">After using Gentoo Linux and KDE for 15 years I have switched to Lubuntu (LXQt)</title>
+		<link rel="alternate" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/" />
+
+		<id>http://fitzcarraldoblog.wordpress.com/?p=6727</id>
+		<updated>2025-08-19T10:24:45Z</updated>
+		<published>2025-08-18T15:44:20Z</published>
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GeckoLinux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="KDE" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="LXQt" />
+		<summary type="html">The demise of my laptops Recently both my laptops &amp;#8211; a ten-year-old 14&amp;#8243; Clevo W230SS running the stable version of Gentoo Linux, and a fifteen-year-old 15.6&amp;#8243; Compal NBLB2 running the testing version of Gentoo Linux &amp;#8211; died. The Clevo laptop was my main machine. They had been heavily used in succession for work and personal [&amp;#8230;]</summary>
+
+		
+					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/#comments" ns0:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/feed/atom/" ns0:count="4" />
+			<total>4</total>
 			</entry>
 		<entry>
         <title>Threadbare</title>
