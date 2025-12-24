@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-12-23T02:09:31</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2025-12-24T02:07:31</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
 		<author>
 			<name>Fitzcarraldo</name>
 							<uri>https://fitzcarraldoblog.wordpress.com</uri>
@@ -11,7 +11,7 @@
 		<updated>2025-09-29T16:19:06Z</updated>
 		<published>2025-08-18T15:44:20Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GeckoLinux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="KDE" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="LXQt" />
-		<summary type="html">The demise of my laptops Recently both my laptops &amp;#8211; a ten-year-old 14&amp;#8243; Clevo W230SS running the stable version of Gentoo Linux, and a fifteen-year-old 15.6&amp;#8243; Compal NBLB2 running the testing version of Gentoo Linux &amp;#8211; died. The Clevo laptop was my main machine. They had been heavily used in succession for work and personal [&amp;#8230;]</summary>
+		<summary type="html">The demise of my laptops Recently both my laptops &amp;#8211; a ten-year-old 14&amp;#8243; Clevo W230SS running the stable version of Gentoo Linux, and a fifteen-year-old 15.6&amp;#8243; Compal NBLB2 running the testing version of Gentoo Linux &amp;#8211; died. The Clevo laptop was my main machine. They had been heavily used in succession for work and personal &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/08/18/after-using-gentoo-linux-and-kde-for-15-years-i-have-switched-to-lubuntu-lxqt/#comments" ns0:count="5" />
@@ -31,7 +31,7 @@
 		<updated>2025-09-04T14:59:43Z</updated>
 		<published>2025-09-04T14:51:02Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ASRock" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ION330HT" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="nettop" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="SATA" />
-		<summary type="html">A couple of weeks after my previous post regarding the demise of my two legacy laptops, my legacy ASRock ION330HT nettop failed to boot. It seems bad luck does come in threes. In that post I described how I had connected the nettop&amp;#8217;s eSATA port to each of the 2.5&amp;#8243; HDDs salvaged from my two [&amp;#8230;]</summary>
+		<summary type="html">A couple of weeks after my previous post regarding the demise of my two legacy laptops, my legacy ASRock ION330HT nettop failed to boot. It seems bad luck does come in threes. In that post I described how I had connected the nettop&amp;#8217;s eSATA port to each of the 2.5&amp;#8243; HDDs salvaged from my two &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2025/09/04/resurrecting-my-legacy-asrock-ion330ht-nettop/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2025/09/04/resurrecting-my-legacy-asrock-ion330ht-nettop/#comments" ns0:count="0" />
@@ -91,7 +91,7 @@
 		<updated>2024-08-09T09:13:00Z</updated>
 		<published>2024-08-08T23:03:12Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="lockscreen" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="screensaver" />
-		<summary type="html">LXQt in Lubuntu 22.04 uses XScreenSaver to provide both the screen saver and lock screen, and XScreenSaver appears to be tightly integrated with LXQt. My family had the following configuration for the screensaver and for session locking in their individual user accounts on the family desktop computer: 1. XScreenSaver was installed by default in Lubuntu [&amp;#8230;]</summary>
+		<summary type="html">LXQt in Lubuntu 22.04 uses XScreenSaver to provide both the screen saver and lock screen, and XScreenSaver appears to be tightly integrated with LXQt. My family had the following configuration for the screensaver and for session locking in their individual user accounts on the family desktop computer: 1. XScreenSaver was installed by default in Lubuntu &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2024/08/08/replacing-xscreensaver-with-xsecurelock-for-the-lock-screen-in-lubuntu-22-04/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/08/08/replacing-xscreensaver-with-xsecurelock-for-the-lock-screen-in-lubuntu-22-04/#comments" ns0:count="0" />
@@ -119,7 +119,7 @@
 		<updated>2024-05-07T18:10:22Z</updated>
 		<published>2024-05-07T18:10:21Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="anti-virus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="antivirus" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ClamAV" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenRC" />
-		<summary type="html">Back in December I noticed that the OpenRC init script for clamd in Gentoo Linux reported the clamd service status as &amp;#8216;crashed&amp;#8217;, when in fact it was still running (I raised Gentoo Linux Bug Report 921088 to report this). The issue arises because the init script (/etc/init.d/clamd) installed by the clamav ebuild specifies the PID [&amp;#8230;]</summary>
+		<summary type="html">Back in December I noticed that the OpenRC init script for clamd in Gentoo Linux reported the clamd service status as &amp;#8216;crashed&amp;#8217;, when in fact it was still running (I raised Gentoo Linux Bug Report 921088 to report this). The issue arises because the init script (/etc/init.d/clamd) installed by the clamav ebuild specifies the PID &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/07/pid-file-path-discrepancy-for-the-clamd-service-in-gentoo-linux/#comments" ns0:count="1" />
@@ -147,7 +147,7 @@
 		<updated>2024-05-03T15:32:22Z</updated>
 		<published>2024-05-03T12:05:54Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Portage" />
-		<summary type="html">This week I finally had some spare time to upgrade the Gentoo Linux Portage Profile from 17.1 to 23.0 (see Gentoo Linux News item of 22 March 2024 titled &amp;#8216;Profile upgrade to version 23.0 available&amp;#8216;) in my two Gentoo Linux installations: one Stable (amd64), the other Testing (~amd64). Both installations use OpenRC and therefore they [&amp;#8230;]</summary>
+		<summary type="html">This week I finally had some spare time to upgrade the Gentoo Linux Portage Profile from 17.1 to 23.0 (see Gentoo Linux News item of 22 March 2024 titled &amp;#8216;Profile upgrade to version 23.0 available&amp;#8216;) in my two Gentoo Linux installations: one Stable (amd64), the other Testing (~amd64). Both installations use OpenRC and therefore they &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2024/05/03/upgrading-the-portage-profile-to-23-0-in-gentoo-linux-openrc-and-merging-usr/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/05/03/upgrading-the-portage-profile-to-23-0-in-gentoo-linux-openrc-and-merging-usr/#comments" ns0:count="1" />
@@ -167,7 +167,7 @@
 		<updated>2024-04-23T11:15:38Z</updated>
 		<published>2024-04-23T11:15:38Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Graphics" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="graphics" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GUI" />
-		<summary type="html">Yesterday I looked through some old CDROMs with a view to disposing of them. I came across one from 2001 from a company called Focus Multimedia Limited, titled &amp;#8216;4,000 fonts &amp;#8211; A comprehensive collection of stylish and professional fonts&amp;#8217; for Windows 95 / 98 / Me / NT / 2000 / XP. It is still [&amp;#8230;]</summary>
+		<summary type="html">Yesterday I looked through some old CDROMs with a view to disposing of them. I came across one from 2001 from a company called Focus Multimedia Limited, titled &amp;#8216;4,000 fonts &amp;#8211; A comprehensive collection of stylish and professional fonts&amp;#8217; for Windows 95 / 98 / Me / NT / 2000 / XP. It is still &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2024/04/23/installing-truetype-font-files-in-lubuntu-22-04/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/04/23/installing-truetype-font-files-in-lubuntu-22-04/#comments" ns0:count="0" />
@@ -194,7 +194,7 @@
 		<updated>2024-01-08T21:06:24Z</updated>
 		<published>2024-01-08T19:35:40Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" />
-		<summary type="html">I installed Gentoo Linux on my two laptops in 2010 and 2015 respectively, long before the distribution&amp;#8217;s developers changed the default locations of the repositories for ebuilds and packages in an installation. In 2023 I modified the two installations to use an eselect module instead of the superseded Layman overlay manager (see my earlier post [&amp;#8230;]</summary>
+		<summary type="html">I installed Gentoo Linux on my two laptops in 2010 and 2015 respectively, long before the distribution&amp;#8217;s developers changed the default locations of the repositories for ebuilds and packages in an installation. In 2023 I modified the two installations to use an eselect module instead of the superseded Layman overlay manager (see my earlier post &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2024/01/08/migrating-the-ebuild-repository-locations-in-my-gentoo-linux-installations-to-the-current-defaults/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2024/01/08/migrating-the-ebuild-repository-locations-in-my-gentoo-linux-installations-to-the-current-defaults/#comments" ns0:count="0" />
@@ -228,7 +228,7 @@
 		<updated>2023-10-04T13:39:56Z</updated>
 		<published>2023-10-03T15:24:31Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Desktops &amp; Window Managers" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Internet" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Networks" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wired" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Wireless" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="GUI" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="KDE" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="laptop" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="networks" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenSSL" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="OpenVPN" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="TLS" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="VPN" />
-		<summary type="html">Back in 2020 I successfully used OpenVPN to access a remote server from my laptop and from my smartphone. Fast forward to 2023 and I needed to use OpenVPN again to access the same remote server. I could again access the remote server when connecting from my smartphone, now running Android 13, using the OpenVPN [&amp;#8230;]</summary>
+		<summary type="html">Back in 2020 I successfully used OpenVPN to access a remote server from my laptop and from my smartphone. Fast forward to 2023 and I needed to use OpenVPN again to access the same remote server. I could again access the remote server when connecting from my smartphone, now running Android 13, using the OpenVPN &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2023/10/03/investigating-an-openvpn-connection-problem-in-gentoo-linux-and-lubuntu-22-04-but-not-in-android-13/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/10/03/investigating-an-openvpn-connection-problem-in-gentoo-linux-and-lubuntu-22-04-but-not-in-android-13/#comments" ns0:count="0" />
@@ -248,7 +248,7 @@
 		<updated>2023-07-04T12:10:56Z</updated>
 		<published>2023-07-04T12:10:56Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Gentoo Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" />
-		<summary type="html">Last week, when upgrading the world packages on my machines running Gentoo Linux, I noticed that the package for the Layman overlay manager app-portage/layman is masked for removal: root # eix -I layman [?] app-portage/layman Available versions: [M]2.4.3^t [M]**9999*l^t {cvs darcs g-sorcery +git gpg mercurial sqlite squashfs subversion sync-plugin-portage test PYTHON_TARGETS="pypy3 python3_10 python3_11"} Installed versions: [&amp;#8230;]</summary>
+		<summary type="html">Last week, when upgrading the world packages on my machines running Gentoo Linux, I noticed that the package for the Layman overlay manager app-portage/layman is masked for removal: root # eix -I layman [?] app-portage/layman Available versions: [M]2.4.3^t [M]**9999*l^t {cvs darcs g-sorcery +git gpg mercurial sqlite squashfs subversion sync-plugin-portage test PYTHON_TARGETS="pypy3 python3_10 python3_11"} Installed versions: &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2023/07/04/layman-overlay-manager-in-gentoo-linux-superseded-by-eselect-module/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/07/04/layman-overlay-manager-in-gentoo-linux-superseded-by-eselect-module/#comments" ns0:count="1" />
@@ -276,7 +276,7 @@
 		<updated>2023-03-05T15:02:52Z</updated>
 		<published>2023-03-05T15:01:45Z</published>
 		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Android" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ADB" />
-		<summary type="html">The following notification appeared every time I switched on my Blackview Tab 10 tablet (Android 11): DebugLoggerUI DebugLoggerUI service is running I cannot remember if this notification started appearing after I upgraded the tablet&amp;#8217;s firmware last year to remove a bug in the original firmware (I had contacted Blackview and they supplied me with the [&amp;#8230;]</summary>
+		<summary type="html">The following notification appeared every time I switched on my Blackview Tab 10 tablet (Android 11): DebugLoggerUI DebugLoggerUI service is running I cannot remember if this notification started appearing after I upgraded the tablet&amp;#8217;s firmware last year to remove a bug in the original firmware (I had contacted Blackview and they supplied me with the &amp;#8230; &amp;#8230; &lt;a href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/"&gt;Continue reading &lt;span class="meta-nav"&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</summary>
 
 		
 					<link rel="replies" type="text/html" href="https://fitzcarraldoblog.wordpress.com/2023/03/05/disabling-the-debugloggerui-service-app-in-android/#comments" ns0:count="4" />
