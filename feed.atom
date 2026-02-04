@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-03T02:46:05</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-04T02:40:20</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>2026-02-02T13</title>
         <updated>2026-02-02T13</updated>
         <summary>All RSS feeds now include content inline instead of just a summary.</summary>
