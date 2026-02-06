@@ -1,17 +1,22 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-05T02:42:49</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-06T02:43:04</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-02-06T11</title>
+        <updated>2026-02-06T11</updated>
+        <summary>&lt;p&gt;Watch &lt;a href="https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/"&gt;FreeCAD's state of affairs&lt;/a&gt; from FOSDEM 2026!&lt;/p&gt;</summary>
+    </entry>
+    <entry>
         <title>2026-02-02T13</title>
         <updated>2026-02-02T13</updated>
-        <summary>All RSS feeds now include content inline instead of just a summary.</summary>
+        <summary>&lt;p&gt;All RSS feeds now include content inline instead of just a summary.&lt;/p&gt;</summary>
     </entry>
     <entry>
         <title>2026-02-02T12</title>
         <updated>2026-02-02T12</updated>
-        <summary>The fediverse has sparked debate on social network design sans the unhealthier aspects: likes, resharing with comments, and follower counts. I've decided a self-hosted static site and RSS feed is all that is needed. I.e., if you're reading this, I actually have no idea.</summary>
+        <summary>&lt;p&gt;The fediverse has sparked debate on social network design sans the unhealthier aspects: likes, resharing with comments, and follower counts. I've decided a self-hosted static site and RSS feed is all that is needed. I.e., if you're reading this, I actually have no idea.&lt;/p&gt;</summary>
     </entry>
     <entry>
         <title>2026-02-01</title>
         <updated>2026-02-01</updated>
-        <summary>I have begun a microblog!</summary>
+        <summary>&lt;p&gt;I have begun a microblog!&lt;/p&gt;</summary>
     </entry>
     <entry>
         <title>Pi minima</title>
@@ -5457,39 +5462,6 @@ print(geometry.SweptArea.OuterCurve.Points) # the list of points that are in the
 &lt;p&gt;Geometry is quite delicate, and I would discourage attempting to be bold and edit it by hand unless you want a headache. There are plenty of tools out there that can help you do this, or to visualise the geometry.&lt;/p&gt;
 &lt;p&gt;For more examples, you can see an example of &lt;a href="https://github.com/IfcOpenShell/IfcOpenShell/blob/master/src/ifcopenshell-python/ifcopenshell/geom/app.py"&gt;IfcOpenShell in use to build a simple viewer here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And so ends this short introduction. If you are interested in helping push IFC, I recommend downloading &lt;a href="https://www.freecadweb.org/"&gt;FreeCAD&lt;/a&gt; and help writing code to make it the best open-source BIM authoring tool out there!&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Free major and minor arpeggios for piano sheet music</title>
-        <link href="https://thinkmoult.com/free-major-and-minor-arpeggios-for-piano-sheet-music.html" />
-        <id>https://thinkmoult.com/free-major-and-minor-arpeggios-for-piano-sheet-music.html</id>
-        <updated>2019-01-31</updated>
-        <summary>Download free piano sheet music for major and minor arpeggios for all keys. Includes fingering annotation and typeset in LaTeX, exported in PDF format.</summary>
-        <content type="html">
-
-&lt;p&gt;I have produced a free PDF download of major and minor arpeggios for piano. These can be downloaded as a ZIP file and printed for any purpose.&lt;/p&gt;
-&lt;p&gt;Arpeggios are usually the next set of scales that are taught together
-with &lt;a href="https://thinkmoult.com/assets/../free-major-and-minor-scales-for-piano-sheet-music.html"&gt;major and minor scales&lt;/a&gt;. This pack includes 12 PDFs in total of arpeggios sorted
-logically. These music sheets have the following features:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Arpeggios include major and minor varieties, shown side by side to each other.&lt;/li&gt;
-&lt;li&gt;Arpeggios ascend and descend three octaves.&lt;/li&gt;
-&lt;li&gt;Arpeggios include all keys, beginning at C major, followed by G major, D major, etc until F sharp major, then switches over to D flat major, and descends in flats until F major.&lt;/li&gt;
-&lt;li&gt;Arpeggios include the 1&lt;sup&gt;st&lt;/sup&gt; and 2&lt;sup&gt;nd&lt;/sup&gt; inversions of all keys.&lt;/li&gt;
-&lt;li&gt;Arpeggios also include the 7&lt;sup&gt;th&lt;/sup&gt; chord variety&lt;/li&gt;
-&lt;li&gt;These arpeggios are optimised for piano, with two staves, one for the left hand and one for the right. Fingering numbers are noted, but only where fingering changes occur, instead of above every single note, which is unnecessarily ugly.&lt;/li&gt;
-&lt;li&gt;All PDFs available in A4 and letter paper sizes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A sample page is shown below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Sample page of a free PDF download for major and minor arpeggios" src="https://thinkmoult.com/assets/major-minor-arpeggios.png"&gt;&lt;/p&gt;
-&lt;p&gt;The sheet has no copyright or attribution text that might
-get in the way of professionalism when presenting to
-students. The sheet is created using
-&lt;a href="http://www.lilypond.org/"&gt;LilyPond&lt;/a&gt;, which is quite
-possibly the world's best music engraving software.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://thinkmoult.com/assets/major-minor-arpeggios.zip"&gt;Download major-minor-arpeggios.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
         </content>
     </entry>
     </feed>
