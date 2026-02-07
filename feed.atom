@@ -1,22 +1,46 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-06T02:43:04</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-07T02:38:36</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-02-06T19</title>
+        <link href="https://dynamicland.org/" />
+        <id>https://dynamicland.org/</id>
+        <updated>2026-02-06T19</updated>
+        <summary>If you're interested in a more human approach to augmented reality, check out [Dynamicland](https://dynamicland.org/)</summary>
+        <content type="html">
+<p>If you're interested in a more human approach to augmented reality, check out <a href="https://dynamicland.org/">Dynamicland</a></p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-02-06T11</title>
+        <link href="https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/" />
+        <id>https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/</id>
         <updated>2026-02-06T11</updated>
-        <summary>&lt;p&gt;Watch &lt;a href="https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/"&gt;FreeCAD's state of affairs&lt;/a&gt; from FOSDEM 2026!&lt;/p&gt;</summary>
+        <summary>Watch [FreeCAD's state of affairs](https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/) from FOSDEM 2026!</summary>
+        <content type="html">
+<p>Watch <a href="https://fosdem.org/2026/schedule/event/XPFS8X-freecad-state-of-affairs/">FreeCAD's state of affairs</a> from FOSDEM 2026!</p>
+        </content>
     </entry>
     <entry>
         <title>2026-02-02T13</title>
         <updated>2026-02-02T13</updated>
-        <summary>&lt;p&gt;All RSS feeds now include content inline instead of just a summary.&lt;/p&gt;</summary>
+        <summary>All RSS feeds now include content inline instead of just a summary.</summary>
+        <content type="html">
+<p>All RSS feeds now include content inline instead of just a summary.</p>
+        </content>
     </entry>
     <entry>
         <title>2026-02-02T12</title>
         <updated>2026-02-02T12</updated>
-        <summary>&lt;p&gt;The fediverse has sparked debate on social network design sans the unhealthier aspects: likes, resharing with comments, and follower counts. I've decided a self-hosted static site and RSS feed is all that is needed. I.e., if you're reading this, I actually have no idea.&lt;/p&gt;</summary>
+        <summary>The fediverse has sparked debate on social network design sans the unhealthier aspects: likes, resharing with comments, and follower counts. I've decided a self-hosted static site and RSS feed is all that is needed. I.e., if you're reading this, I actually have no idea.</summary>
+        <content type="html">
+<p>The fediverse has sparked debate on social network design sans the unhealthier aspects: likes, resharing with comments, and follower counts. I've decided a self-hosted static site and RSS feed is all that is needed. I.e., if you're reading this, I actually have no idea.</p>
+        </content>
     </entry>
     <entry>
         <title>2026-02-01</title>
         <updated>2026-02-01</updated>
-        <summary>&lt;p&gt;I have begun a microblog!&lt;/p&gt;</summary>
+        <summary>I have begun a microblog!</summary>
+        <content type="html">
+<p>I have begun a microblog!</p>
+        </content>
     </entry>
     <entry>
         <title>Pi minima</title>
@@ -5370,98 +5394,6 @@ render :
 &lt;li&gt;If your asset has multiple variations, allow them to be built. For example, if &lt;code&gt;cool-chair&lt;/code&gt; comes in different materials, describe its usage in &lt;code&gt;README.md&lt;/code&gt; and provide convenience targets in &lt;code&gt;Makefile&lt;/code&gt; to build things differently based on different materials in its &lt;code&gt;mat/&lt;/code&gt; directory.&lt;/li&gt;
 &lt;li&gt;Track the asset in a &lt;code&gt;git&lt;/code&gt; repository and use &lt;code&gt;git lfs&lt;/code&gt; for tracking large binary assets, such as &lt;code&gt;*.obj&lt;/code&gt;, &lt;code&gt;*.blend&lt;/code&gt; and &lt;code&gt;*.hdr&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Using IfcOpenShell to parse IFC files with Python</title>
-        <link href="https://thinkmoult.com/using-ifcopenshell-parse-ifc-files-python.html" />
-        <id>https://thinkmoult.com/using-ifcopenshell-parse-ifc-files-python.html</id>
-        <updated>2019-02-12</updated>
-        <summary>IFC is the ISO standard format for storing BIM data. IfcOpenShell allows you to use Python to query and parse IFC files to extract and analyse data. As there is no API documentation as of writing, these code examples give an introduction demo to how to read IFC files.</summary>
-        <content type="html">
-
-&lt;p&gt;IFC is the ISO standard format for storing BIM data. IfcOpenShell is a project that has a Python library that allows you to parse IFC files. To start off with, you will need to &lt;a href="http://www.ifcopenshell.org/python.html"&gt;download and install IfcOpenShell python&lt;/a&gt;. There is currently no API documentation for IfcOpenShell, but it isn't hard to work out given that it derives mostly from the IFC specification.&lt;/p&gt;
-&lt;p&gt;While parsing IFC files, if you would like to view IFC files using open-source viewers that are available on Linux, Windows, and Macs, I would recommend reading &lt;a href="https://thinkmoult.com/assets/../how-to-view-bim-ifc-files-linux.html"&gt;how to view BIM IFC files on Linux&lt;/a&gt;. These viewers are open-source and are relatively strict, as opposed to commercial viewers like Revit which do a very poor job of parsing IFCs correctly, or viewers like Solibri which are very lenient with their parsing and promote badly structured IFCs.&lt;/p&gt;
-&lt;p&gt;The examples below use 2X3, as right now is it assumed that most IFC files floating out there are 2X3, but the principles still apply to IFC4. As of writing, IfcOpenShell determines IFC2X3 or IFC4 parsing based on a compile-time flag, which by default is set to IFC2X3. If you wish to use IFC4, you will need to compile IfcOpenShell with &lt;code&gt;USE_IFC4=Y&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Let's start with loading an IFC file:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;import ifcopenshell
-ifc_file = ifcopenshell.open('/path/to/your/file.ifc')
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Getting all types of an IFC class, and listing what they are:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;products = ifc_file.by_type('IfcProduct')
-for product in products:
-    print(product.is_a())
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Merely printing a keyword by itself spits out the IFC string that defines it:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;print(product) # Prints #38=IfcWall('3OFfnkBQ0HwPPAt4e_Z09T',#5,'Wall','',$,#35,#37,$)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;is_a()&lt;/code&gt; function also works as a boolean.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ifc_file.by_type('IfcWall')[0].is_a('IfcWall') # True
-ifc_file.by_type('IfcWall')[0].is_a('IfcSlab') # False
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This convention of pythonic lowercase underscore naming ends with &lt;code&gt;by_type()&lt;/code&gt; and &lt;code&gt;is_a()&lt;/code&gt;. All the rest of the parameters are generated from the IFC schema, which uses CapsCase. The rest of the naming also doesn't follow common programming convention (e.g. predicate prefixes such as &lt;code&gt;is&lt;/code&gt; should only return boolean). You will commonly find confusingly named parameters that suggest booleans or otherwise, but may instead return a set or some other value. Oh well.&lt;/p&gt;
-&lt;p&gt;Getting attributes of any IFC data is through simple dot notation. The parameter name matches exactly what is shown in the IFC schema, including the CapsCase convention.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;wall = ifc_file.by_type('IfcWall')[0]
-print(wall.GlobalId)
-print(wall.Name)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The parameter also returns sets and relationships, such as in the following example where we want to list the property sets associated with a wall. According to the &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcsharedbldgelements/lexical/ifcwall.htm"&gt;IfcWall specification&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The property sets relating to the IfcWall are defined by the IfcPropertySet and attached by the IfcRelDefinesByProperties relationship. It is accessible by the inverse IsDefinedBy relationship.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Therefore we can use the &lt;code&gt;IsDefinedBy&lt;/code&gt; relationship, which returns a &lt;code&gt;SET OF IfcRelDefines FOR RelatedObjects;&lt;/code&gt;. The &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcreldefines.htm"&gt;&lt;code&gt;IfcRelDefines&lt;/code&gt; is an abstract supertype&lt;/a&gt;, and so in this particular situation (a property set relationship), we expect an &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcreldefinesbyproperties.htm"&gt;&lt;code&gt;IfcRelDefinesByProperties&lt;/code&gt;&lt;/a&gt; which has a &lt;code&gt;RelatingPropertyDefinition&lt;/code&gt; to store the property set itself. This property set is an &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcpropertysetdefinition.htm"&gt;&lt;code&gt;IfcPropertySetDefinition&lt;/code&gt;&lt;/a&gt;. Which, again, is an abstract supertype, but at least it nominates a &lt;code&gt;Name&lt;/code&gt; parameter at this level. This is the name of the property set.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;wall = ifc_file.by_type('IfcWall')[0]
-for definition in wall.IsDefinedBy:
-    # To support IFC2X3, we need to filter our results.
-    if definition.is_a('IfcRelDefinesByProperties'):
-        property_set = definition.RelatingPropertyDefinition
-        print(property_set.Name) # Might return Pset_WallCommon
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In this scenario, the abstract supertype &lt;code&gt;IfcPropertySetDefinition&lt;/code&gt; is only subtyped by &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifckernel/lexical/ifcpropertyset.htm"&gt;&lt;code&gt;IfcPropertySet&lt;/code&gt;&lt;/a&gt;, which has a confusingly named &lt;code&gt;HasProperties&lt;/code&gt; parameter which holds a set of &lt;code&gt;IfcProperty&lt;/code&gt;. The type of IfcProperty varies, which we can check using &lt;code&gt;is_a()&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;for property in property_set.HasProperties:
-    if property.is_a('IfcPropertySingleValue'):
-        print(property.Name)
-        print(property.NominalValue.wrappedValue)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Other data, such as quantity use, also uses the &lt;code&gt;isDefinedBy&lt;/code&gt; relationship, but we can distinguish it using &lt;code&gt;is_a()&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;wall = ifc_file.by_type('IfcWall')[0]
-for definition in wall.IsDefinedBy:
-    related_data = definition.RelatingPropertyDefinition
-    if related_data.is_a('IfcPropertySet'):
-        pass
-    elif related_data.is_a('IfcElementQuantity'):
-        print_element_quantities(related_data)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;There are &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcquantityresource/ifcquantityresource.htm"&gt;many types of IFC quantities&lt;/a&gt;, so we'll have to handle them carefully. But this example just handles &lt;code&gt;IfcQuantityLength&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;def print_element_quantities(element_quantity):
-    for quantity in element_quantity.Quantities:
-        print(quantity.Name)
-        if quantity.is_a('IfcQuantityLength'):
-            print(quantity.lengthValue)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can also get geometry data, starting with the placement of any IFC element. &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcgeometricconstraintresource/lexical/ifcobjectplacement.htm"&gt;IFC object placements are complex&lt;/a&gt;, and so you should take care to see how coordinates derive from the various spatial containers in IFC.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;if wall.ObjectPlacement.PlacementRelTo:
-    # Inherit the coordinates of its parents
-    pass
-local_coordinates = wall.ObjectPlacement.RelativePlacement.Location[0]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Finally, you can also get the actual geometric representation of an IFC element. Just like placements, &lt;a href="http://standards.buildingsmart.org/IFC/RELEASE/IFC2x3/TC1/HTML/ifcrepresentationresource/lexical/ifcrepresentation.htm"&gt;IFC representations are complex&lt;/a&gt;. There are many types, and an IFC element may have multiple representations in different contexts. This is beyond the scope of the quick demonstration. In this example, we will not go into detail, but simply deal with a typical extruded object from an axis, which is a very common type of object as shown below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A profile which is extruded along an axis" src="https://thinkmoult.com/assets/IfcExtrudedAreaSolid-Layout1.gif"&gt;&lt;/p&gt;
-&lt;p&gt;We will also see how to access the underlying profile which is used in the extrusion, as shown below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="In this scenario, we deal with an OuterCurve, which is a closed, filled curve" src="https://thinkmoult.com/assets/IfcArbitraryProfileDef-Layout1.gif"&gt;&lt;/p&gt;
-&lt;p&gt;This code will access the relevant geometry data:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;geometry = wall.Representation.Representations[0].Items[0] # An IfcExtrudedAreaSolid in this example
-print(geometry.Position.Location[0]) # The centroid of the wall, so if the wall axis goes from (0, 0, 0) to (4, 0, 0) it will be (2, 0, 0)
-print(geometry.ExtrudeDirection) # A vector pointing up (0, 0, 1)
-print(geometry.Depth) # The height of the wall, say 3000
-print(geometry.SweptArea) # A closed and filled area curve that can be extruded into a manifold, solid object
-print(geometry.SweptArea.OuterCurve.Points) # the list of points that are in the polyline
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The points (i.e. &lt;code&gt;geometry.SweptArea.OuterCurve.Points&lt;/code&gt;) give coordinates relative to &lt;code&gt;geometry.Position.Location[0]&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Points are given relative to the profile location" src="https://thinkmoult.com/assets/IfcProfileDef-Layout1.gif"&gt;&lt;/p&gt;
-&lt;p&gt;Geometry is quite delicate, and I would discourage attempting to be bold and edit it by hand unless you want a headache. There are plenty of tools out there that can help you do this, or to visualise the geometry.&lt;/p&gt;
-&lt;p&gt;For more examples, you can see an example of &lt;a href="https://github.com/IfcOpenShell/IfcOpenShell/blob/master/src/ifcopenshell-python/ifcopenshell/geom/app.py"&gt;IfcOpenShell in use to build a simple viewer here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And so ends this short introduction. If you are interested in helping push IFC, I recommend downloading &lt;a href="https://www.freecadweb.org/"&gt;FreeCAD&lt;/a&gt; and help writing code to make it the best open-source BIM authoring tool out there!&lt;/p&gt;
         </content>
     </entry>
     </feed>
