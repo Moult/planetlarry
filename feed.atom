@@ -1,4 +1,14 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-08T03:21:57</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-09T02:50:32</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-02-09T09</title>
+        <link href="https://www.4dv.ai/" />
+        <id>https://www.4dv.ai/</id>
+        <updated>2026-02-09T09</updated>
+        <summary>Demonstrations of the current state of [4D videos rendered from gaussian splats](https://www.4dv.ai/).</summary>
+        <content type="html">
+<p>Demonstrations of the current state of <a href="https://www.4dv.ai/">4D videos rendered from gaussian splats</a>.</p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-02-06T19</title>
         <link href="https://dynamicland.org/" />
         <id>https://dynamicland.org/</id>
@@ -5291,109 +5301,6 @@ for keyframe in root[0]:
 &lt;p&gt;&lt;img alt="Bezier interpolation without handles in the Blender graph animation editor" src="https://thinkmoult.com/assets/blender-graph.png"&gt;&lt;/p&gt;
 &lt;p&gt;Alternatively, you can use &lt;a href="https://blenderartists.org/t/blender-camera-animation-to-enscape-video-path-python-script/1526696"&gt;this script&lt;/a&gt; to do the opposite: to plan out a camera path in Blender then load it into Enscape.&lt;/p&gt;
 &lt;p&gt;You can now render and composite roughly camera tracked scenes on top of the Enscape footage.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>A proposed Radiance Filesystem Hierarchy Standard</title>
-        <link href="https://thinkmoult.com/proposed-radiance-filesystem-hierarchy-standard.html" />
-        <id>https://thinkmoult.com/proposed-radiance-filesystem-hierarchy-standard.html</id>
-        <updated>2019-02-17</updated>
-        <summary>The proposed Radiance Filesystem Hierarchy Standard (RFHS) is a proposed standard on how to organise files for 3D models, HDR textures, Radiance materials, IES lights, and so on in a Radiance project. This allows Radiance assets to be easily distributed and reused across different proejcts.</summary>
-        <content type="html">
-
-&lt;p&gt;Radiance projects do not usually have any form of enforced structure for organising your files. This is convenient, as Radiance is a whole suite of lighting analysis tools that can be tied together in any way. It is inappropriate to enforce one, as it would be akin to asking &lt;code&gt;imagemagick&lt;/code&gt; to require your raster files be in a certain folder structure. However, this creates an issue when a scene grows to be rather complex, as Radiance scenes have many files. It also means that it can be hard to distribute or reuse assets across projects and across organisations, as everybody has their own way or organising files.&lt;/p&gt;
-&lt;p&gt;To allow the easy maintenance of a complex scene and the reuse of assets, I would like to propose a Radiance Filesystem Hierarchy Standard, or RHFS. It is not strict, but I have found it useful in my works, and will use it to distribute Radiance assets online. If you are planning on using it to build something, please let me know!&lt;/p&gt;
-&lt;h2&gt;Structure of a single asset&lt;/h2&gt;
-&lt;p&gt;The following rules describe how to create a single, reusable asset. This may be an object, such as a chair, table, or lamp.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;A single asset must be fully contained in a folder named after the asset. This folder should be distributed as an atomic package and have no other dependencies.&lt;/li&gt;
-&lt;li&gt;The asset name must be all lowercase, and spaces should be represented by hyphens. This improves SEO and can be used in programming contexts.&lt;/li&gt;
-&lt;li&gt;The asset must only contain the raw source in open formats. All other data that can be generated should be excluded. This minimises repository filesize.&lt;/li&gt;
-&lt;li&gt;If data needs to be generated, the asset must contain a &lt;code&gt;Makefile&lt;/code&gt; at its top level directory, providing a &lt;code&gt;make lib&lt;/code&gt; target at a minimum to build all necessary data.&lt;/li&gt;
-&lt;li&gt;The asset must have a &lt;code&gt;README.md&lt;/code&gt; at its top level directory, describing the asset, and explaining how to use it in a project&lt;/li&gt;
-&lt;li&gt;The asset must have a &lt;code&gt;LICENSE&lt;/code&gt; at its top level directory, so that the license doesn't get lost with asset transfer&lt;/li&gt;
-&lt;li&gt;The asset may have zero or more of the following directories, to hold its data&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;obj/&lt;/code&gt; - stores all "objects", such as &lt;code&gt;.rad&lt;/code&gt;, &lt;code&gt;.rtm&lt;/code&gt;, &lt;code&gt;.obj&lt;/code&gt;, &lt;code&gt;.oct&lt;/code&gt;, and parametric source data such as &lt;code&gt;.blend&lt;/code&gt;, &lt;code&gt;.rfa&lt;/code&gt;, or &lt;code&gt;.3dm&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tex/&lt;/code&gt; - stores all "textures" (in the CG sense), such as &lt;code&gt;.hdr&lt;/code&gt;, and source data such as &lt;code&gt;.xcf&lt;/code&gt;, &lt;code&gt;.svg&lt;/code&gt;, or &lt;code&gt;.psd&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cal/&lt;/code&gt; - stores all calculation files&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ies/&lt;/code&gt; - stores all light files&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mat/&lt;/code&gt; - stores all material definitions, such as &lt;code&gt;.mat&lt;/code&gt; files&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pic/&lt;/code&gt; - stores all example pictures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;This is an example of the asset &lt;code&gt;cool-chair&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cool-chair/
-cool-chair/obj/
-cool-chair/obj/cool-chair.blend # the source file, if anybody wants to tweak
-cool-chair/obj/cool-chair.obj # the baked geometry
-cool-chair/obj/cool-chair.rad # radiance mesh primitive, in this case
-cool-chair/tex/
-cool-chair/tex/leather.hdr # an example texture
-cool-chair/tex/leather.xcf # the GIMP file used to paint the leather texture
-cool-chair/cal/
-cool-chair/cal/led-colour-customiser.cal # this leather chair has funky LED effects!
-cool-chair/ies/
-cool-chair/ies/led-strip.ies # an example ies file
-cool-chair/mat/
-cool-chair/mat/cool-chair.mat # material file
-cool-chair/Makefile
-cool-chair/README.md
-cool-chair/LICENSE
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Including an asset in your Radiance scene&lt;/h2&gt;
-&lt;p&gt;The following rules describe how to use the asset in a scene that you are building. These are required as Radiance paths are relative to where the scene is compiled and rendered.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The project must have a &lt;code&gt;lib/&lt;/code&gt; directory at its top level directory, which will be the working directory where the scene will be compiled and rendered.&lt;/li&gt;
-&lt;li&gt;Each asset directory must be located in the &lt;code&gt;lib/&lt;/code&gt; directory.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In addition, to make it easier for others to view your scene, it is recommended that the following rules be followed when creating a Radiance scene:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The project should have a &lt;code&gt;README.md&lt;/code&gt; at its top level directory, describing the scene&lt;/li&gt;
-&lt;li&gt;The project should have a &lt;code&gt;LICENSE&lt;/code&gt; at its top level directory&lt;/li&gt;
-&lt;li&gt;The project should be a &lt;code&gt;pic/&lt;/code&gt; directory which stores renders created with the scene&lt;/li&gt;
-&lt;li&gt;The project should have a &lt;code&gt;Makefile&lt;/code&gt; at its top level directory, providing the following targets:&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;make libs&lt;/code&gt; - build all asset libs&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;make view&lt;/code&gt; - interactively view the scene&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;make render&lt;/code&gt; - render the scene&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When using an asset in your scene, the asset's &lt;code&gt;README.md&lt;/code&gt; file should explain how to include the asset in the scene. This could be anything, as Radiance can be quite complex. However, it is recommended that the asset provides a &lt;code&gt;.rad&lt;/code&gt; or an &lt;code&gt;.oct&lt;/code&gt; file. This is so that it can be simply included with &lt;code&gt;xform&lt;/code&gt; or instanced in with a single line in the project. For example, a project can use our &lt;code&gt;cool-chair&lt;/code&gt; asset by simply typing in one line:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;!xform lib/cool-chair/obj/cool-chair.rad
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is an example project which follows the rules above:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;lib/
-lib/cool-chair/*
-pic/
-pic/scene.hdr # some milestone render
-scene.rad # the above xform command lives here
-scene.rif
-Makefile
-README.md
-LICENSE
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here is an example &lt;code&gt;Makefile&lt;/code&gt; that provides the expected targets. The details may be different, but if these targets exist as a convention it may make projects a little bit easier to run.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;.PHONY : libs
-libs :
-    cd lib/cool-chair &amp;amp;&amp;amp; make lib
-
-.PHONY : view
-view :
-    make libs
-    rad -o x11 scene.rif
-
-.PHONY : render
-render :
-    make libs
-    rad scene.rif
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Other recommendations&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;It should be assumed that all assets can be further customised. Provide source geometry in formats that FOSS software can open, such as &lt;code&gt;.blend&lt;/code&gt;, &lt;code&gt;.xcf&lt;/code&gt;, or &lt;code&gt;.svg&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If your asset has multiple variations, allow them to be built. For example, if &lt;code&gt;cool-chair&lt;/code&gt; comes in different materials, describe its usage in &lt;code&gt;README.md&lt;/code&gt; and provide convenience targets in &lt;code&gt;Makefile&lt;/code&gt; to build things differently based on different materials in its &lt;code&gt;mat/&lt;/code&gt; directory.&lt;/li&gt;
-&lt;li&gt;Track the asset in a &lt;code&gt;git&lt;/code&gt; repository and use &lt;code&gt;git lfs&lt;/code&gt; for tracking large binary assets, such as &lt;code&gt;*.obj&lt;/code&gt;, &lt;code&gt;*.blend&lt;/code&gt; and &lt;code&gt;*.hdr&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
         </content>
     </entry>
     </feed>
