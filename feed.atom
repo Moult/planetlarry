@@ -1,4 +1,14 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-09T02:50:32</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-10T03:15:35</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-02-10T09</title>
+        <link href="https://explainers.blog/posts/why-is-the-sky-blue/" />
+        <id>https://explainers.blog/posts/why-is-the-sky-blue/</id>
+        <updated>2026-02-10T09</updated>
+        <summary>An intuitive explanation of [why is the sky blue?](https://explainers.blog/posts/why-is-the-sky-blue/).</summary>
+        <content type="html">
+<p>An intuitive explanation of <a href="https://explainers.blog/posts/why-is-the-sky-blue/">why is the sky blue?</a>.</p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-02-09T09</title>
         <link href="https://www.4dv.ai/" />
         <id>https://www.4dv.ai/</id>
@@ -5224,83 +5234,6 @@ tools distinguishes Radiance from its commercial equivalents.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Happy rendering!&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>How to composite Enscape animations with Blender</title>
-        <link href="https://thinkmoult.com/how-to-composite-enscape-animations-with-blender.html" />
-        <id>https://thinkmoult.com/how-to-composite-enscape-animations-with-blender.html</id>
-        <updated>2019-02-25</updated>
-        <summary>Enscape provides real-time rendering with integration with BIM tools such as Revit, ArchiCAD, and Sketchup. However, it has a limited set of animation tools. Blender can be used to import Enscape camera animation keyframes and composite new animations on top of the Enscape flythrough.</summary>
-        <content type="html">
-
-&lt;p&gt;&lt;a href="https://enscape3d.com/"&gt;Enscape&lt;/a&gt; is a game-engine style rendering engine that has plugins available for Revit, SketchUp, Rhino, and ArchiCAD. It is a proprietary, simple program that allows you to view your models. Although it is very easy to use, it lacks the functionality and flexibility that other tools such as &lt;a href="https://www.blender.org/2-8/#eevee"&gt;Blender's Eevee&lt;/a&gt; (extremely powerful, free, and open-source), Unity (offers free versions), and Unreal Engine allow.&lt;/p&gt;
-&lt;p&gt;One of the functions that Enscape has is the ability to set camera keyframes and export a short animation of your building model. This is standard keyframing and keyframe interpolation that is seen in all animation software, with the limitation that you can only keyframe the camera, the field of view, and the time of day. This means that should you want to create a more bespoke animation, it is simply not possible to do in Enscape and you should use other tools.&lt;/p&gt;
-&lt;p&gt;However, it is possible to composite over the underlying Enscape-animated footage. Stock standard 2D compositing is possible just like with any other footage, and so is camera / motion tracking, if you are keen to spend time tracking markers and solving the camera motion. However, Enscape does have an option to export out an XML file saving the camera positions. It is possible for us to recreate the camera movements in any other software.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Enscape can export camera paths to an XML file" src="https://thinkmoult.com/assets/enscape-save-path-xml.png"&gt;&lt;/p&gt;
-&lt;p&gt;This XML data looks a little like this for an animation that shows 5 keyframes. Take note how the frames are measured in seconds, not frames, and that the time of day is recorded in terms of "hour", and the field of view is recorded in radians.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; ?&amp;gt;
-&amp;lt;VideoPath version=&amp;quot;1&amp;quot; easingInOut=&amp;quot;1&amp;quot; shakyCam=&amp;quot;0&amp;quot;&amp;gt;
-    &amp;lt;Keyframes count=&amp;quot;18&amp;quot;&amp;gt;
-        &amp;lt;Keyframe order=&amp;quot;0&amp;quot; hour=&amp;quot;6.19048&amp;quot;&amp;gt;
-            &amp;lt;Position x=&amp;quot;-866.038&amp;quot; y=&amp;quot;23.1767&amp;quot; z=&amp;quot;-79.7907&amp;quot; /&amp;gt;
-            &amp;lt;LookAt x=&amp;quot;0.133988&amp;quot; y=&amp;quot;0.0725552&amp;quot; z=&amp;quot;-0.988323&amp;quot; /&amp;gt;
-        &amp;lt;/Keyframe&amp;gt;
-        &amp;lt;Keyframe order=&amp;quot;1&amp;quot; timestampSeconds=&amp;quot;10.0362&amp;quot;&amp;gt;
-            &amp;lt;Position x=&amp;quot;-874.087&amp;quot; y=&amp;quot;22.7914&amp;quot; z=&amp;quot;-98.4712&amp;quot; /&amp;gt;
-            &amp;lt;LookAt x=&amp;quot;0.051014&amp;quot; y=&amp;quot;0.0422604&amp;quot; z=&amp;quot;-0.997803&amp;quot; /&amp;gt;
-        &amp;lt;/Keyframe&amp;gt;
-        &amp;lt;Keyframe order=&amp;quot;2&amp;quot; timestampSeconds=&amp;quot;12.4903&amp;quot;&amp;gt;
-            &amp;lt;Position x=&amp;quot;-876.866&amp;quot; y=&amp;quot;23.2531&amp;quot; z=&amp;quot;-106.341&amp;quot; /&amp;gt;
-            &amp;lt;LookAt x=&amp;quot;0.396895&amp;quot; y=&amp;quot;0.0325198&amp;quot; z=&amp;quot;-0.917288&amp;quot; /&amp;gt;
-        &amp;lt;/Keyframe&amp;gt;
-        &amp;lt;Keyframe order=&amp;quot;3&amp;quot; fieldOfViewRad=&amp;quot;1.91964&amp;quot; timestampSeconds=&amp;quot;50.9925&amp;quot;&amp;gt;
-            &amp;lt;Position x=&amp;quot;-693.204&amp;quot; y=&amp;quot;59.4014&amp;quot; z=&amp;quot;-255.678&amp;quot; /&amp;gt;
-            &amp;lt;LookAt x=&amp;quot;0.718453&amp;quot; y=&amp;quot;-0.688584&amp;quot; z=&amp;quot;0.0983752&amp;quot; /&amp;gt;
-        &amp;lt;/Keyframe&amp;gt;
-        &amp;lt;Keyframe order=&amp;quot;4&amp;quot; hour=&amp;quot;17.5333&amp;quot; timestampSeconds=&amp;quot;111.771&amp;quot;&amp;gt;
-            &amp;lt;Position x=&amp;quot;-856.114&amp;quot; y=&amp;quot;91.0984&amp;quot; z=&amp;quot;-13.3383&amp;quot; /&amp;gt;
-            &amp;lt;LookAt x=&amp;quot;0.51913&amp;quot; y=&amp;quot;-0.381081&amp;quot; z=&amp;quot;-0.765037&amp;quot; /&amp;gt;
-        &amp;lt;/Keyframe&amp;gt;
-    &amp;lt;/Keyframes&amp;gt;
-&amp;lt;/VideoPath&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The data is almost enough to recreate a camera path. First, we also need the field of view which is sometimes not explicit in the XML, but you can find it out from your settings.
- It is given in degrees in the UI.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Enscape viewer showing the field of view" src="https://thinkmoult.com/assets/enscape-fov.png"&gt;&lt;/p&gt;
-&lt;p&gt;Finally you will also need the camera resolution and the frames per second to convert seconds to frame. This can be found in the Enscape settings.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Enscape settings showing resolution and FPS" src="https://thinkmoult.com/assets/enscape-fps.png"&gt;&lt;/p&gt;
-&lt;p&gt;Those settings can be set in your camera object and rendering settings in your favourite 3D software. The next step is to actually translate the camera position and directions to your 3D software. Here, I demonstrate how to do it in Blender with a script.&lt;/p&gt;
-&lt;p&gt;There are actually three pieces of information required to explicitly define a camera location and rotation. First, you need the position coordinates, which we have, then we either need rotation degrees along each axis, which we don't have, or a camera direction and a camera up vector to help define an axis. Unfortunately, Enscape only gives us two: the camera position, and the camera direction vector. We don't know which way is up, so theoretically the camera could still rotate among an infinite number of possibilities and still be correct.&lt;/p&gt;
-&lt;p&gt;The good news is that it seems to follow the same system that Blender uses for the camera "track to" solver. So apart from your camera object in Blender named &lt;code&gt;Camera&lt;/code&gt;, you will also need to create an empty, named &lt;code&gt;Target&lt;/code&gt; which we will use to set as the "target" for the camera to point to. This is the python script that you can run inside Blender to import the XML data into your camera and target object. Be sure to delete any existing keyframes for the object or it might get confused. Also check that the FPS is correct (the default is 30).&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;import bpy, xml.etree.ElementTree
-fps = 30
-cam = bpy.data.objects['Camera']
-target = bpy.data.objects['Target']
-frame = 0
-tree = xml.etree.ElementTree.parse('/path/to/Enscape_VideoPath.xml')
-root = tree.getroot()
-for keyframe in root[0]:
-    try:
-        frame = round(fps * float(keyframe.attrib['timestampSeconds']))
-    except:
-        frame = 0
-    print(frame)
-    cam.location = (float(keyframe[0].attrib['x']), -float(keyframe[0].attrib['z']), float(keyframe[0].attrib['y']))
-    target.location = (
-        float(keyframe[0].attrib['x']) + float(keyframe[1].attrib['x']),
-        - float(keyframe[0].attrib['z']) - float(keyframe[1].attrib['z']),
-        float(keyframe[0].attrib['y']) + float(keyframe[1].attrib['y'])
-    )
-    cam.keyframe_insert(data_path = 'location', frame = frame, index = -1)
-    target.keyframe_insert(data_path = 'location', frame = frame, index = -1)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Run the script and that's it! Your camera will now follow the path of the enscape camera. The coordinates are such that the project base point is set to be the origin. If you want, you can now export your project as an IFC, and &lt;a href="https://thinkmoult.com/assets/../how-to-view-bim-ifc-files-linux.html"&gt;view your IFC using Blender&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can additionally check if the camera is correct by &lt;a href="https://docs.blender.org/manual/en/latest/editors/3dview/properties/background_images.html"&gt;setting a video underlay in your Blender camera&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You will then quickly notice that your camera is correct on the keyframes, but the interpolation may not match exactly. By default, Enscape does an "EaseInOut" easing, but doesn't reveal exactly what interpolation it uses. I have found that it is roughly equivalent to a bezier curve without any handles. That is, you can go to the graph editor for the camera object, set your scale origins to be individual origins, then scale all keyframes down to 0.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Bezier interpolation without handles in the Blender graph animation editor" src="https://thinkmoult.com/assets/blender-graph.png"&gt;&lt;/p&gt;
-&lt;p&gt;Alternatively, you can use &lt;a href="https://blenderartists.org/t/blender-camera-animation-to-enscape-video-path-python-script/1526696"&gt;this script&lt;/a&gt; to do the opposite: to plan out a camera path in Blender then load it into Enscape.&lt;/p&gt;
-&lt;p&gt;You can now render and composite roughly camera tracked scenes on top of the Enscape footage.&lt;/p&gt;
         </content>
     </entry>
     </feed>
