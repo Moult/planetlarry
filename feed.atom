@@ -1,4 +1,14 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-16T02:49:15</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-02-17T02:45:42</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-02-16T19</title>
+        <link href="https://community.osarch.org/discussion/3339/strategy-around-increased-contributions-and-ai/" />
+        <id>https://community.osarch.org/discussion/3339/strategy-around-increased-contributions-and-ai/</id>
+        <updated>2026-02-16T19</updated>
+        <summary>I'm [looking for feedback](https://community.osarch.org/discussion/3339/strategy-around-increased-contributions-and-ai/) on the impact of (mostly AI) increased contributions to IfcOpenShell and Bonsai.</summary>
+        <content type="html">
+<p>I'm <a href="https://community.osarch.org/discussion/3339/strategy-around-increased-contributions-and-ai/">looking for feedback</a> on the impact of (mostly AI) increased contributions to IfcOpenShell and Bonsai.</p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-02-10T09</title>
         <link href="https://explainers.blog/posts/why-is-the-sky-blue/" />
         <id>https://explainers.blog/posts/why-is-the-sky-blue/</id>
@@ -5049,191 +5059,6 @@ PropertySet:    Pset_EnvironmentalImpactValues  I   IfcWall
 &lt;h2&gt;Next steps to creating better IFC files&lt;/h2&gt;
 &lt;p&gt;This post covers the basics of IFC, and doesn't cover many other concepts such as relationships, associations, classifications, parametric data, and composition ... and not to mention we haven't even talked about geometry! However, I believe it should give a relatively good introduction to the current capabilities of Revit an OpenBIM, which is to say, not much, but at least it's something. At the very least, you'll be able to neaten up some of your parameter storage and improve some data export.&lt;/p&gt;
 &lt;p&gt;In the future, should time permit, I will cover more IFC concepts in another article.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>A comparison between Radiance and other rendering engines</title>
-        <link href="https://thinkmoult.com/a-comparison-between-radiance-and-other-rendering-engines.html" />
-        <id>https://thinkmoult.com/a-comparison-between-radiance-and-other-rendering-engines.html</id>
-        <updated>2019-03-06</updated>
-        <summary>This posts compares Radiance with modern rendering engines, such as Renderman and Autodesk Insight. Radiance is seen as the gold standard for light simulation, but more modern engines are becoming more physically based and claim photorealistic results at a fraction of the time. Why should we use one over the other?</summary>
-        <content type="html">
-
-&lt;p&gt;Radiance, first released in 1985, is one of the oldest rendering engines in use
-today. It distinguishes itself by its ability to produce scientifically
-validated lighting simulations, whereas other rendering engines merely give the
-illusion of the photoreal, but there is no guarantee to its accuracy.&lt;/p&gt;
-&lt;p&gt;You have probably heard all this before. But it is also clear that other
-rendering engines, such as Renderman, Cycles, V-Ray, Maxwell, Luxrender (the
-list goes on) have changed drastically in recent times. They have shifted from
-being "biased" rendering engines, to "unbiased" rendering engines, and we hear
-terms like physically based rendering. You can create a sun and put your time of
-day in your rendering program, and sometimes even see a falsecolour
-representation of the luminance, or perhaps illuminance, in your rendering
-engine. You can load in &lt;code&gt;.ies&lt;/code&gt; files when you create lights, and specify camera
-options like exposure and white balance.&lt;/p&gt;
-&lt;p&gt;All of these trends suggest that Radiance and other engines are not too
-dissimilar. After all, they all do ray-tracing, they all solve the global
-illumination problem, and some of their attributes seem to be physical units, or
-have some sort of conversion factor. Nowadays, we also have tools like Sefaira
-and Autodesk Insight 360, the former which claims to use Radiance, and the
-latter which benchmarks with Radiance and promises accurate simulations at a
-fraction of the time. How do these compare? What's the difference?&lt;/p&gt;
-&lt;p&gt;These are all questions I wondered, and so I asked the folks who created
-Radiance, who have spoken to people who develop other engines. I hope to
-summarise and mirror the responses here in this article so that others who
-wondered as I did can get a clearer answer. Many of the words are from others,
-and I encourage those who read this to read the original thread.&lt;/p&gt;
-&lt;h2&gt;Radiance is validated, others are not&lt;/h2&gt;
-&lt;p&gt;In the words of Lars Grobe, who first replied to my question in 2018:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I think the main difference is - that the difference is not known. In the Radiance universe, a lot of work is spent on testing the validity of the models and methods. This allows professionals to rely on the software, as long as they are within the boundaries of the validations. There is a lot of other software capable to solve the global illumination, but few people will rely on it for quantitative studies before they have been validated.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lars Grobe, Radiance community&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Or, as more simply summarised: there is a difference between a photoreal image
-and a photometrically correct image. Radiance does not merely produce an image,
-it produces numerical output which can be validated. If your rendering engine
-is not rigorously validated, there is little guarantee of correctness.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It's a great question, and I think Lars and Germ&#225;n summarized the differences pretty well. The bottom line is that you can take almost any renderer and add the needed features and capabilities to make it physically accurate, but there is little economic motivation to do so. The main, important difference between Radiance and other tools is the dedication of this community to keeping the focus on accuracy every step of the way.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Greg Ward, creator of Radiance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Greg is correct in that it is technically feasible to take any other renderer
-and make it physically accurate. I recall attempting to do such a test with
-Pixar's Renderman engine in 2017. Their documentation hints at the ability to
-map their parameters which are either arbitrary or use E.V. as a unit back to
-real life values, and support for BSDF material definitions via a custom plugin.
-I wasn't able to progress particularly far, simply because Renderman is not
-built for this purpose. One of the Renderman documenters explain:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Our light transport and materials are based on physical properties but in the end, it's not physical. We also render in RGB values, not spectral. It might predict what such a thing would look like in the real world, but there's no guarantee it would be that way if manufactured. I only really know of a couple renderers that promise real-world or near real-world material and light responses based on actual lights and measured substances.&lt;/p&gt;
-&lt;p&gt;You can definitely achieve realistic and plausible images with RenderMan, and the fact we're not tied to certain aspects of reality is our strength when it comes to art directed and beautiful imagery. We pride ourselves on being able to make the unreal look real. So this will be an adventure into a realm we don't always anticipate.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;remydrh, Pixar Animation Studios&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This argument is the same for most artistic renderers, such as Blender's
-Cycles, Mitsuba, Luxrender, and so on. It is especially so for game-engine
-style renderers such as Eevee, Unreal Engine, and Enscape. But if Renderman is
-for artists, what about engines that actually do market themselves as able to
-perform accurate light simulation? &lt;/p&gt;
-&lt;h2&gt;The example of LightScape as a proprietary renderer&lt;/h2&gt;
-&lt;p&gt;An older example is that of LightScape. LightScape is one of many proprietary
-engines that marketed its ability to perform accurate results with the usual
-marketing tropes: less complexity, prettier pictures, faster results. This speaks to a deeper, more systemic problem with the architecture industry, but let's focus on rendering. Greg Ward
-gives a recount:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The most tragic trajectory was the one followed by LightScape, which was initially intended as a head-to-head competitor of Radiance, and was quite good at it, taking more of a radiosity approach with some ray-tracing add-ons. This was eventually bought by Autodesk, and stayed true to its purpose for maybe 5 years before things like photometric files lost support, followed by numeric output, followed by every useful feature for lighting simulation. (I can't say for sure, but I bet the renderings got nicer-looking in the same period.) The point is, although there is a small community of people who are keen on accurate results out of their renderer, the money is in good-looking output.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Greg Ward, creator of Radiance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Rob Guglielmetti expands on this story with more detail.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Greg's account of the demise of Lightscape is even more generous that what actually happened. When Autodesk bought Lightscape from Discreet Logic (the original purchasers of Lightscape from the founders), it was immediately absorbed into their "3DStudio Viz" product, aimed at architects wanting to make nice pictures while being able to say their images are "correct", "accurate", etc. Well, the first beta of Viz included Lightscape's renderer, but the render-as-falsecolor option was unceremoniously removed.  This was the first thing I noticed, since I actually used Lightscape as an illumination engineering tool. I (and others on the beta test team) brought this up, and the falsecolor option was added by the next release candidate.  This one provided falsecolor images, but &lt;em&gt;with no scale legend&lt;/em&gt;. Useless.  For me, the writing was on the wall, even before version 1.0 of 3DS Viz with "Lightscape Inside" ever saw the light of day. I think Lightscape's awesome radiosity renderer lasted one year in the Autodesk Death Star.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Rob Guglielmetti, Radiance community&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It's important to note that there is an older proprietary engine known as AGi32
-which seems to be the exception and has stayed true to its purpose. It is closed
-source, so inpsection of the simulation process may not be as transparent as
-Radiance, but it is worthwhile mentioning nonetheless.&lt;/p&gt;
-&lt;h2&gt;Radiance maintains validity, whereas the is no guarantees in others&lt;/h2&gt;
-&lt;p&gt;What about a more modern example, such as 3DS Max's Design render? 3DS Max's
-rendering engine is the backbone for Autodesk's cloud rendering product
-(another attempt since LightScape), which boasts the ability to be used for
-lighting simulation, and is what is behind products like Insight 360 today.&lt;/p&gt;
-&lt;p&gt;Greg Ward points to a &lt;a href="http://www.ibpsa.org/proceedings/BS2009/BS09_1514_1521.pdf"&gt;study comparing 3DS Max Design and
-Radiance&lt;/a&gt; (2009)
-which shows that 3DS Max is certainly capable of simulating a simple case of
-light through an open window. It performs the simulation at a fraction of the
-time, with the caveat that it is tricky to understand how to set materials and
-hard to interpret the output. However, if one does figure out how to set
-materials and to parse the output reliably, it is certainly possible to use
-engines like 3DS Max.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You might read this report and decide, "Hey, I'll go with the big commercial software, since it probably has a smoother workflow," and you could be right.  Except, the next release comes out and the features you were relying on are no longer supported, or just don't work as they used to. This has happened many, many times over the past 30 years or so that I've been paying attention.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Greg Ward, creator of Radiance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Tools like 3DS Max do not follow the same rigour in validation of their
-engine. Over time, changes are made that deviate from validated
-algorithms. These changes are not documented or communicated to users.
-Parameters change, some are exposed, and others are hidden, again with little
-prior notice or explanation to users. In lieu of validation against a controlled
-physical environment, these engines sometimes only consider smoke tests against a similar
-scene in Radiance as a "gold standard". This causes a decrease in accuracy over
-time, and a lack of trust in the software that results can be meaningfully
-replicated.&lt;/p&gt;
-&lt;p&gt;This is proved in &lt;a href="https://www.researchgate.net/publication/282316986_The_impact_of_the_software's_choice_on_dynamic_daylight_simulations'_results_A_comparison_between_Daysim_and_3ds_Max_DesignR"&gt;a follow-up study comparing 3DS Max Design and
-Radiance&lt;/a&gt;
-(2015) which showed that 3DS Max only gave comparable results in one scenario,
-but found more cases where 3DS Max was less accurate. If you truly are
-interested in correct output, faith should not be placed in less rigorously
-tested, undocumented engines. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://blogs.autodesk.com/insight/daylighting-as-a-service-raas-illuminance-radiance/"&gt;Autodesk's initial claims about its cloud rendering
-system&lt;/a&gt;
-was released in 2013, and it is hard to find any more Autodesk technical breakdowns of the engine
-since then. When these rendering engines other than Radiance change over time,
-introducing new "features" (some documented, some not) to each release, it means that an
-image rendered today is not the same as an image rendered in the future. As
-simulationists, we have to ask why there is a change? Are we able to rerun and
-revalidate our results with the changes? Are we using the appropriate tools and
-documentation that let us interrogate our results? Is the change, actually,
-correct?&lt;/p&gt;
-&lt;h2&gt;Frontends to Radiance&lt;/h2&gt;
-&lt;p&gt;Frontends to Radiance such as Honeybee, Ladybug, or Safaira do not share the
-same difficulties as fully proprietary solutions. However, it is important to
-note that with any model, it is an opportunity for a simulationist to create
-error either in the form of garbage input, or garbage parameters.&lt;/p&gt;
-&lt;p&gt;As frontends tend to influence the input and parameters (sometimes through the
-simplification of inputs, or through the presets of parameters), it is important
-to ask how much we value the correctness of the simulation. In some frontends,
-such as Sefaira, the simulation parameters used are a secret. In this case, we
-have to place a full trust in the Sefaira developers that the presets do not
-sacrifice the correctness of the simulation.&lt;/p&gt;
-&lt;h2&gt;Radiance has pioneered physically based rendering&lt;/h2&gt;
-&lt;p&gt;With the trend of modern day engines slowly becoming more physically based, it
-is useful to reflect where these things came from. I remember how surprised I
-was to find that it was Radiance that had &lt;a href="http://radsite.lbl.gov/radiance//digests_html/v2n4.html"&gt;invented the concept of a normal
-map&lt;/a&gt; back in 1992.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;TEXDATA - Using the texdata type for bump mapping Date: Wed, 21 Oct 1992
-13:19:48 +0800 From: Simon Crone
-Apparently-To: GJWard@lbl.gov&lt;/p&gt;
-&lt;p&gt;Hello Greg,&lt;/p&gt;
-&lt;p&gt;I am after information on how to use the data files for the Texdata type.  I want to be able to use a Radiance picture file as a texture 'map'.  Ie. using the picture file's red value to change the x normal, the blue value to change the y normal and the z value to change the z height.  How might I go about this?  If you could supply an example, that would be great.&lt;/p&gt;
-&lt;p&gt;Many thanks,
-Simon Crone.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Radiance has pioneered many concepts that has slowly trickled into other
-engines. Other than normal maps, we have the HDR format, sun &amp;amp; sky simulations,
-exposure control, camera settings that mimicked camera behaviours, and
-irradiance caching. The history of physically based rendering owes itself to
-Radiance.&lt;/p&gt;
-&lt;p&gt;However perhaps the most enabling concepts that Radiance has excelled at are its
-numerical output and cross-platform portability. Radiance follows the Unix
-philosophy, and isn't just one tool. Instead, Radiance is a collection of tools,
-each specialising in its own task, that are chained together and pipe text
-streams from one to another to achieve any desired output. These text streams
-contain plain numerical output that can be interrogated by any suspicious
-simulationist.  This modular flexibility and ecosystem of independent analysis
-tools distinguishes Radiance from its commercial equivalents.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;I'll close with a short quote from Greg Ward, emphasis added by me.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In contrast, Radiance has been plodding along a lonely but very constrained path over its lifetime, where features are added only if they improve accuracy, or add capabilities without compromising accuracy. There's no money in it, but the reward is that we have at least one tool to which all the others can be compared when you really need to know, &lt;strong&gt;"Is this the right result, or does it just look right?"&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Greg Ward, creator of Radiance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Happy rendering!&lt;/p&gt;
         </content>
     </entry>
     </feed>
