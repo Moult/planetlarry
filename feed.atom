@@ -1,4 +1,47 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-14T02:40:33</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-15T03:18:40</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>ghui - curses TUI for Github</title>
+        <link href="https://thinkmoult.com/ghui-curses-tui-for-github.html" />
+        <id>https://thinkmoult.com/ghui-curses-tui-for-github.html</id>
+        <updated>2026-03-15</updated>
+        <summary>A curses terminal interface for Github issues</summary>
+        <content type="html">
+
+&lt;p&gt;&lt;a href="https://github.com/Moult/ghui"&gt;ghui&lt;/a&gt; is a terminal interface for browsing GitHub issues and pull requests.&lt;/p&gt;
+&lt;p&gt;I built it because I usually use &lt;a href="https://thinkmoult.com/using-elinks-browse-web.html"&gt;elinks&lt;/a&gt; and Github inexplicably doesn't work at all on text browsers. I find the Github interface very slow and clunky. If you like things like &lt;code&gt;mutt&lt;/code&gt;, &lt;code&gt;newsboat&lt;/code&gt;, etc, this is for you. It's also completely shamelessly YOLO vibe AI slop.&lt;/p&gt;
+&lt;p&gt;But it works. And I use it. I don't even know if this is free software or not. I just said what I wanted and kept on pressing enter and here it is.&lt;/p&gt;
+&lt;p&gt;Does it secretly do crazy stuff in the background? I read enough of the code to convince myself that it does actually do what it advertises and nothing more, but don't hold me to it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A screenshot of ghui issue list" src="https://thinkmoult.com/assets/ghui-issue-list.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A screenshot of ghui viewing an issue with comments" src="https://thinkmoult.com/assets/ghui-issue-view.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A screenshot of ghui PR showing a diff with syntax highlighting" src="https://thinkmoult.com/assets/ghui-pr-diff.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Single Python file with no deps apart from &lt;code&gt;gh&lt;/code&gt; and &lt;code&gt;pygments&lt;/code&gt; (syntax
+   highlighting). Go figure.&lt;/li&gt;
+&lt;li&gt;Lists issues and pull requests with colored state indicators, author, labels,
+   and relative timestamps&lt;/li&gt;
+&lt;li&gt;Paginated browsing (100 per page) with &lt;code&gt;n&lt;/code&gt;/&lt;code&gt;N&lt;/code&gt; to move between pages&lt;/li&gt;
+&lt;li&gt;Filter by state (open, closed, merged, all) and search using GitHub's full
+   query syntax&lt;/li&gt;
+&lt;li&gt;Sort by updated, created, or comment count&lt;/li&gt;
+&lt;li&gt;View issue and PR detail with body and full comment thread&lt;/li&gt;
+&lt;li&gt;Render markdown: headers, bold, inline code, and fenced code blocks with
+   pygments syntax highlighting&lt;/li&gt;
+&lt;li&gt;Write comments by drafting in &lt;code&gt;$EDITOR&lt;/code&gt;, then reviewing the thread before
+   confirming&lt;/li&gt;
+&lt;li&gt;View PR diffs with colored +/- lines&lt;/li&gt;
+&lt;li&gt;Merge PRs with a choice of merge, rebase, or squash&lt;/li&gt;
+&lt;li&gt;Reopen and close issues and PRs&lt;/li&gt;
+&lt;li&gt;Open anything in the browser with &lt;code&gt;B&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Jump directly to an issue or PR number with &lt;code&gt;#&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Caching for fast loads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ghui is not:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A full Github interface. It only implements the things I care about.&lt;/li&gt;
+&lt;/ul&gt;
+        </content>
+    </entry>
+    <entry>
         <title>2026-02-27T09</title>
         <link href="https://typst.app" />
         <id>https://typst.app</id>
@@ -135,7 +178,7 @@
 			<total>0</total>
 			</entry>
 		<entry>
-        <title>Threadbare</title>
+        <title>Threadbare - a frugal PHP forum</title>
         <link href="https://thinkmoult.com/threadbare-frugal-php-forum.html" />
         <id>https://thinkmoult.com/threadbare-frugal-php-forum.html</id>
         <updated>2025-04-28</updated>
@@ -4767,183 +4810,6 @@ truthfully what the design will be like, and the other cannot. That will be the
 stepping stone to the time where government and planning approval organisations
 &lt;em&gt;expect&lt;/em&gt; a truthful representation in all development applications. After all,
 it's the &lt;em&gt;right&lt;/em&gt; thing to do.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>The five fundamental facets of ethical software</title>
-        <link href="https://thinkmoult.com/five-fundamental-facets-of-ethical-software.html" />
-        <id>https://thinkmoult.com/five-fundamental-facets-of-ethical-software.html</id>
-        <updated>2019-03-15</updated>
-        <summary>Technology is increasingly trending towards proprietary forms, which have negative impacts on society. I describe the 5 fundamental ingredients to keep software honest, and prioritise people over profit.</summary>
-        <content type="html">
-
-&lt;p&gt;The computing world has changed significantly since the web matured. We now have
-centralised services monopolising most of the internet traffic, several
-industries still running completely proprietary software, and the internet of
-things which is slowly permeating through people homes.&lt;/p&gt;
-&lt;p&gt;What does this mean? For most of us who aren't familiar with the work done by
-the Free Software Foundation, we are unaware of the implications of how our
-digital lives have changed. We have entrusted more and more of our personal
-lives into digital services, but have these digital services grown to support
-us the best way they could have?&lt;/p&gt;
-&lt;p&gt;Allow me to use an analogy. Imagine you are buying a house. In this parallel
-world, you only have the choice of 3 house designs. As usual, a company will
-build the house for you. However, they will not tell you what is in your house,
-there will be some locked doors that you can't open, and when something is
-broken, you have to ask them to fix it. You're also not entirely sure if the
-house complies with the government fire resistance requirements, because the
-government hasn't certified it. They also own the spare key, and will randomly
-decide to enter your house without asking to "upgrade" unspecified aspects of
-it. Every so often, you're prohibited from placing certain furniture in the
-house, and occasionally they will throw away some of your furniture without
-asking. In a few years, you will be asked to leave your house, and buy a new
-house from the same company, otherwise all your furniture will be thrown out.
-Also, there's a microphone by your bedside, and a CCTV camera in your bathroom.&lt;/p&gt;
-&lt;p&gt;If this scenario sounds absolutely ridiculous to you, that's because it is.  If
-you replace "house" with any other personal electronic device you own, such as
-computer or phone, this is exactly what is happening with society right now.
-Maybe you shouldn't bring your phone with you to the bathroom.&lt;/p&gt;
-&lt;p&gt;Software wasn't always like this. Richard M. Stallman, the foremost advocator
-for software freedom, first observed that with software, either you control the
-software, or the software controls you. If we lose control of software, vendors
-become increasingly opaque on their processes. Their priorities shift from
-developing software to benefit users, to developing software to maximise
-profits. When profits become the driving factor, companies no longer hesitate to
-make decisions that harm society. They promote the ignorance of users, create
-profiles that can be used for authoritarian means, control communication, hinder
-innovation and self expression, and monopolise markets. In fewer words, Richard
-remarks:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"Companies tend to lose their scruples when that is profitable"&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Richard Stallman&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;We see this trend blatantly happening around us. For instance, the majority of
-web traffic filters through Google who profiles your behaviour in order to
-create psychological profiles to maximise advertising profits. Google realised
-that providing search results that were correct were less profitable than
-showing you results for things you were inclined to believe, regardless of
-their factual validity. This resulted in YouTube's and Google's results
-agorithm creating a positive feedback loop encourage extremist behaviour,
-pushing people towards violence and binarism.&lt;/p&gt;
-&lt;p&gt;To mitigate the issue of software being developed against the interests of the
-public, I will describe 5 fundamental facets the allow a software to remain &lt;em&gt;in
-control&lt;/em&gt; by the users, keep the software &lt;em&gt;honest&lt;/em&gt;, and by extension, prioritise
-&lt;em&gt;people over profit&lt;/em&gt;.&lt;/p&gt;
-&lt;h2&gt;The data should be open data&lt;/h2&gt;
-&lt;p&gt;All software needs to store and communicate data to one another. If the data
-format is closed and proprietary, it cannot evolve to meet the needs of the
-public, or be inspected by the public that it is truly correct. It also means
-that you can only inspect it using a limited set of tools which are not under
-your control. It is likely to be inefficient, store unwanted data, and the user
-has to trust that their data is recorded correctly, with no way to validate it.&lt;/p&gt;
-&lt;p&gt;Open data should have formats that have publicly available specifications that
-describe their syntax, grammar, tokens, parsing, and so on. This allows anyone
-to additionally adapt the data to their own needs, since the rules are so
-clearly spelled out in the specification.&lt;/p&gt;
-&lt;p&gt;Open data should also ideally have some form of plain text interpretation. Even
-better so if that plain text is human understandable to the extent that humans
-can author data themselves with a text editor without the need for software.
-This allows humans to inspect the data easily, and allows a human to be critical
-of the quality of data produced by software.&lt;/p&gt;
-&lt;p&gt;The good news is that there open data standards for almost any industry. Where
-one does not exist, it is also easy to store things in plain text, and to follow
-the Unix philosophy to think about universal text streams being piped from one
-to another.&lt;/p&gt;
-&lt;h2&gt;The software should be open-source&lt;/h2&gt;
-&lt;p&gt;Proprietary software where the only developers are part of a secret club is not
-conducive to public inspection of whether or not the software is being true to
-its purpose. As a result, it quickly succumbs to the profit motive and develops
-features that attempt to monetise its users, often with the side effect of
-privacy violations, limiting their exposure to opportunities that could improve
-the world, or creating anti-social situations.&lt;/p&gt;
-&lt;p&gt;As a result, software should be created by the community. That is, not only
-open-source, but the core developers should be welcoming to all contributors and
-unafraid of forks.&lt;/p&gt;
-&lt;p&gt;These days, there are plenty of quasi-open-source projects where the source is
-available, but it is held on a tight leash. The phrase "open-source" is simply
-used as a marketing tool but does not represent the actual scenario. It is even
-worse when proprietary tools promote a so-called "open-source" ecosystem of
-modules and plugins. These projects are &lt;em&gt;liars&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;The good news is that it is easy nowadays to open-source a project. Being a good
-maintainer is another story, but open-sourcing things is a good start.&lt;/p&gt;
-&lt;h2&gt;The deployment process should be independently verifiable&lt;/h2&gt;
-&lt;p&gt;Once software is developed in an open-source manner and uses open-data formats,
-it has to be deployed onto a machine. This can be simple as compiling it on a
-computer, downloading a binary, or running it as a network-accessed service.
-This deployment process represents an opportunity for a malicious actor to
-modify the software to their own ends.&lt;/p&gt;
-&lt;p&gt;Therefore, we need to check that the software we are running is true to the
-open-source code that we have inspected. In some cases, you can simply compile
-it yourself, and then you are sure to use the version of the software that the
-codebase describes. You will first need to obtain the source code using methods
-that cannot be compromised - this can be through open source and open data
-protocols such as &lt;code&gt;git&lt;/code&gt;, or by verifying that a package matches a precomputed
-hash, or are signed by developers. Many Linux distributions offer this feature.&lt;/p&gt;
-&lt;p&gt;If you are downloading a binary, things become harder. A level of verification
-can still be determined using hashing and signing, but it is less trustworthy
-than the ability to compile the source yourself. Software projects that have
-lengthy, complex, build procedures that discourage the public to build from
-source are doing a disservice to user rights.&lt;/p&gt;
-&lt;p&gt;Some software is not deployed on your machine at all. This describes most
-services we access on the internet. Unless you run your own email server, it is
-unlikely that you have verified that your email provider only runs the necessary
-software for email processing, and doesn't run other proprietary tools or store
-secret non-open data for other purposes that you are unaware of.&lt;/p&gt;
-&lt;p&gt;It is technically possible to solve this problem, using crowd-distributed
-deployment processes where multiple parties verify the validity of the
-deployment, similar to how blockchain works. However, although technically
-possible, it is a waste of resources.&lt;/p&gt;
-&lt;p&gt;Other strategies we can muse upon are run-time hashes which expose build-time
-procedures and dependencies, or third-party deployment inspections, but again,
-these are complex.&lt;/p&gt;
-&lt;p&gt;Any service which forces a non-local deployment is a form of abstracting the
-control of data away from users. They should be discouraged, as the long-term
-trend represents a full abstraction of data processing services and the complete
-ignorance of the user to comprehend the full stack of software required to
-process the data. This is already happening now, where some web developers are
-unaware of the full stack of web-related software required to serve even simple
-static files over the internet.&lt;/p&gt;
-&lt;h2&gt;The software hosting should be decentralised&lt;/h2&gt;
-&lt;p&gt;Once the software is deployed, the software host represents another opportunity
-to modify the program, replace it with a lookalike, or observe the environment
-and infer information for its own purposes.&lt;/p&gt;
-&lt;p&gt;This is a not a problem for purely local software - a user can run and deploy an
-open-source operating system and environment for it to run on. If they want to
-run it on another computer, they can do the same, assuming that the software
-supports that platform. For this reason, having cross-platform support is a
-feature of decentralised local software.&lt;/p&gt;
-&lt;p&gt;However, there are software which are networked in some way. To mitigate this, a
-common protocol should be established for the software to communicate, and the
-network should be decentralised. Like email, or the more recent ActivityPub
-extension, this allows anybody to run it themselves, and not be cut off from a
-wider network.&lt;/p&gt;
-&lt;p&gt;Any centralised network represents a single opportunity for malicious activity,
-and discourages the independence and freedom of individual users to grow the
-network organically.&lt;/p&gt;
-&lt;h2&gt;End-to-end encryption should be possible&lt;/h2&gt;
-&lt;p&gt;The final facet to consider is when the software is in use. Users should have
-the right to protect their behaviour with the software, especially as users
-record more and more of their lives digitally.&lt;/p&gt;
-&lt;p&gt;For local software, the software data does not necessarily leave the system that
-it is deployed and hosted on. In this case, users should be aware of similarly
-free and open-source standards for encrypting their data. These already exist,
-such as using PGP encryption.&lt;/p&gt;
-&lt;p&gt;Again, software that is networked creates a problem. Network communications are
-often poorly designed for user privacy. The networked software should be
-designed in a way that any inputs can be encrypted on the client-side that
-accesses the networked service, before being decrypted on the other end, and
-ensure that the message cannot be modified in the process. Software such as
-XMPP's OMEMO encryption extension demonstrate how this can be done.&lt;/p&gt;
-&lt;h2&gt;It's not just ethical software&lt;/h2&gt;
-&lt;p&gt;It's important to note that although this article has focused on software, these
-trends of increased abstraction and opaque processes apply to many industries.
-If you think it is hard to build software that achieves these ideals, you are
-witnessing a much more systemic problem with society. We are too keen on wanting
-more - and we want more faster and easier. We do not stop and think about
-whether more is necessarily better.&lt;/p&gt;
-&lt;p&gt;Take a deep breath.&lt;/p&gt;
         </content>
     </entry>
     </feed>
