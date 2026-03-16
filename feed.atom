@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-15T03:18:40</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-16T03:20:58</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>ghui - curses TUI for Github</title>
         <link href="https://thinkmoult.com/ghui-curses-tui-for-github.html" />
         <id>https://thinkmoult.com/ghui-curses-tui-for-github.html</id>
