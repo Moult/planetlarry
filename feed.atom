@@ -1,4 +1,14 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-28T02:48:41</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-03-29T03:21:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-03-28T16</title>
+        <link href="https://keepandroidopen.org/" />
+        <id>https://keepandroidopen.org/</id>
+        <updated>2026-03-28T16</updated>
+        <summary>As another reminder of why free software is more than just a license, [Keep Android Open](https://keepandroidopen.org/) is why company operated open source software tends not to last.</summary>
+        <content type="html">
+<p>As another reminder of why free software is more than just a license, <a href="https://keepandroidopen.org/">Keep Android Open</a> is why company operated open source software tends not to last.</p>
+        </content>
+    </entry>
+    <entry>
         <title>ghui - curses TUI for Github</title>
         <link href="https://thinkmoult.com/ghui-curses-tui-for-github.html" />
         <id>https://thinkmoult.com/ghui-curses-tui-for-github.html</id>
@@ -4727,89 +4737,6 @@ possibly the world's best music engraving software.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://thinkmoult.com/assets/intervals.zip"&gt;Download intervals.zip&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Why Radiance needs a free 3D model repository</title>
-        <link href="https://thinkmoult.com/radiance-free-3d-model-repository.html" />
-        <id>https://thinkmoult.com/radiance-free-3d-model-repository.html</id>
-        <updated>2019-03-17</updated>
-        <summary>The Radiance free 3D model repository is the world's first photometrically accurate model repository, with a focus on both correctness and aesthetics. It is completely open-source and free to mirror and redistribute. You can download models as an OBJ, along with material and light definitions.</summary>
-        <content type="html">
-
-&lt;p&gt;Radiance, unlike other rendering engines, does not currently have a large
-repository of free 3D models so that lighting simulationists can reuse assets in
-their renders. For this reason, I have created the &lt;a href="https://radiance.thinkmoult.com/"&gt;Radiance free 3D model
-repository&lt;/a&gt;, which will host model geometry
-and model material definitions that are photometrically accurate and are
-measured from real-life products. As far as I am aware, nothing like this
-is available.&lt;/p&gt;
-&lt;p&gt;You can read more about how the repository is organised and what it offers in
-terms of file formats, photometric accuracy, and download methods in the
-repository itself. However, in this article, I'd like to describe the underlying
-reason why this repository is so important.&lt;/p&gt;
-&lt;p&gt;Currently, architects who design our built environment do not have any
-established workflows for accurately creating virtual prototypes of their
-designs. If an architect wants to visualise their design, they commonly do so
-through 2D sketches / collages, or use 3D rendering, as real-life physical
-mockups are slow and expensive. However, both of these digital visualisations
-are artistic impressions of the design, and often, the sketcher or the CG artist
-would take quite a bit of artistic liberty. It is also unfortunately common
-practice for the architect to blatantly lie in the render about what the space
-will look like. In other scenarios, the visualisation would be purposely vague
-or abstract, in order to not over-promise to clients about what the space will
-look like, and leave it to the imagination.&lt;/p&gt;
-&lt;p&gt;There is room for creative exploration and imaginative interpretation of spaces,
-but I would equally argue that there is also room for an honest, scientifically
-accurate simulation to see what a space would &lt;em&gt;really&lt;/em&gt; look like. Even if this
-is never shown to clients, it is an invaluable tool for architects who want to
-remove the rose-tinted glasses and verify that the space is actually beautiful.&lt;/p&gt;
-&lt;p&gt;If this type of validated render is exposed to the client, and by extension, to
-the public, then it serves as an honest representation of the aesthetic impact
-the design has on the public domain. Currently, this doesn't exist. Instead, we
-see buildings that glow from impossible bird-like angles or unlikely viewpoints,
-treated as a spectacular blessed work of art upon the ground. In reality,
-buildings are frankly a little bit drab to most people. Especially for projects
-which heavily impact the public domain, it is ethically responsible to give them
-a true representation of how designs will impact the environment.&lt;/p&gt;
-&lt;p&gt;The tool that is capable of this scientifically validated visualisation, of
-course, is Radiance. Architects may come across Radiance through daylight and
-sunlight studies, sustainability analysis, or through the light engineering of
-the space. However, it is less often used in the form of qualitative analysis,
-as it is slow, and due to the over-simplified models and material definitions,
-often produces renders that look even more fake (despite being correct) than an
-artists impression of a photoreal scene.&lt;/p&gt;
-&lt;p&gt;The reason for this is because lighting engineers, in their quest for accuracy,
-have not had the same urgency to develop the same workflows, asset libraries,
-and attention to geometric and textural detail that the artists have. These
-types of things are simply not required when analysing average illuminance
-levels, for instance.  However, accuracy and art are not mutually exclusive. For
-instance, more detailed geometric models actually increase the accuracy of a
-light simulation.  For sure, this increases the simulation time significantly,
-and probably does not impact the average overall luminance and illuminance
-values, but certainly does greatly impact the qualitative empathy a viewer has
-with the rendered visualisation.&lt;/p&gt;
-&lt;p&gt;It is also important to stress that this type of render certainly takes a lot of
-time compared to a regular artistic render, and almost always will look less
-"spectacular", and time is the most important factor in creating renders. The
-key to making validated renders economical is similar to how CG artists make
-their renders economical: they build an asset library. The difference is that a
-Radiance asset library is something quite special: the materials are true. There
-will be no need to tweak objects for a particular light or shot: the asset will
-simply be a digital twin of the real life object.  But unfortunately, a
-repository does not yet exist, which is why this one is being launched. It is
-also key to keep the repository open-source, so that the resulting assets can
-then be validated by the community, and recipients can ensure they are not being
-lied to about the quality of the asset.&lt;/p&gt;
-&lt;p&gt;The good news is that &lt;a href="https://thinkmoult.com/assets/../history-rendering-engines-modern-trends.html"&gt;rendering engines are already trending towards
-photorealism&lt;/a&gt;. They
-aren't quite there yet, and will take a long time to get there, but slowly they
-are pulled towards reality. I envision a time in the future where clients will
-choose between hiring two architectural firms: one of them can tell them
-truthfully what the design will be like, and the other cannot. That will be the
-stepping stone to the time where government and planning approval organisations
-&lt;em&gt;expect&lt;/em&gt; a truthful representation in all development applications. After all,
-it's the &lt;em&gt;right&lt;/em&gt; thing to do.&lt;/p&gt;
         </content>
     </entry>
     </feed>
