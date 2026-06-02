@@ -1,4 +1,12 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-01T05:00:13</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-02T04:46:49</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-06-01T18</title>
+        <updated>2026-06-01T18</updated>
+        <summary>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB wordpress site into a 20MB static site demonstrates this.</summary>
+        <content type="html">
+<p>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB wordpress site into a 20MB static site demonstrates this.</p>
+        </content>
+    </entry>
+    <entry>
         <title>The magnetic potential of the European robin</title>
         <link href="https://thinkmoult.com/magnetic-potential-european-robin.html" />
         <id>https://thinkmoult.com/magnetic-potential-european-robin.html</id>
@@ -4602,155 +4610,6 @@ done
 cd dxf/ &amp;amp;&amp;amp; rename &amp;quot;.pdf&amp;quot; &amp;quot;.dxf&amp;quot; *.pdf
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;It is worth mentioning that the &lt;a href="https://inkscape.org/doc/inkscape-man.html"&gt;Inkscape man page&lt;/a&gt; describes how to export to SVG format, and that &lt;code&gt;pstoedit&lt;/code&gt; also supports conversion to many other formats such as Adobe Illustrator files, plaintext, or even PowerPoint!&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>The ethical implications of OpenBIM</title>
-        <link href="https://thinkmoult.com/ethical-implications-of-openbim.html" />
-        <id>https://thinkmoult.com/ethical-implications-of-openbim.html</id>
-        <updated>2019-03-25</updated>
-        <summary>OpenBIM is an initiative to promote the use of open data in the architecture, engineering and construction industry. I describe how using OpenBIM has positive ethical implications.</summary>
-        <content type="html">
-
-&lt;p&gt;OpenBIM is an international initiative to use open data standards in the
-architecture, engineering, and construction industry. This is in contrast to the
-current state of the AEC industry, which is largely limited by the tools and
-closed ecosystems of a few software vendor monopolies.&lt;/p&gt;
-&lt;p&gt;The solution posited by OpenBIM is to switch to &lt;em&gt;open data&lt;/em&gt;. You may have
-already heard of them, such as the IFC format. In fact, IFC is just one of many
-OpenBIM initiatives, such as BCF, bsDD, BIMSIE, and OWL. Without deciphering
-the funny acronyms, it is suffice to say they are all simply initiatives to
-create open data in different contexts.&lt;/p&gt;
-&lt;p&gt;In short, open data is a digital format that everybody can read and write. This
-by itself is extremely interesting from a technical point of view, but in this
-article I would like to focus on the ethical implications.&lt;/p&gt;
-&lt;h2&gt;Open data prevents monopolies&lt;/h2&gt;
-&lt;p&gt;The biggest advantage of open-data is that it allows interoperability between
-different software. This has the obvious consequence of preventing industry
-monopolies. As you'll find in any standard business textbook, monopolies stifle
-innovation and give rise to customer exploitation. This is no surprise to
-anybody in the industry. As one example, I describe &lt;a href="https://thinkmoult.com/assets/../a-comparison-between-radiance-and-other-rendering-engines.html"&gt;multiple sustainability and
-light simulation tools that have been killed by
-Autodesk&lt;/a&gt;.
-I have also documented the &lt;a href="https://thinkmoult.com/assets/../why-revit-is-shit.html"&gt;daily problems with Revit that have been unfixed for
-a decade&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the current monopolistic state of affairs, the quality of the data that
-describes our built environment is not governed by the government, instead, it's
-governed by Autodesk. It is time we asked ourselves the question: &lt;em&gt;is leaving
-Autodesk in charge of international building data really in the best interest of
-society?&lt;/em&gt; Who should dictate the digital capabilities that help design the
-environment around us?&lt;/p&gt;
-&lt;p&gt;Shouldn't it be &lt;em&gt;society&lt;/em&gt;?&lt;/p&gt;
-&lt;h2&gt;Open data allows design validation, to learn what makes good environments&lt;/h2&gt;
-&lt;p&gt;The average lifespan of a building built today is 50 years if we're feeling
-optimistic. The average lifespan of building data is 3 years. This is because
-the supported software version of Autodesk products is 3 years. Admittedly,
-companies can upgrade from one software version to the next, but any developer
-with a large real estate portfolio will find it uneconomical to do this. Also,
-anyone hired to endlessly upgrade Revit projects will kill themself after the
-first year.&lt;/p&gt;
-&lt;p&gt;This usually isn't a problem because the building data quality is so poor to
-begin with due to inefficient and ineffective authoring tools. It is often
-cheaper to simply resurvey a site, remodel a building, and drill a few
-investigative holes here and there to see what's inside.&lt;/p&gt;
-&lt;p&gt;The good news is that as authoring tools inevitably improve, without vendor
-lock-in, a BIM model will last practically forever, especially because OpenBIM
-standards are based on ASCII syntax. As a case in point, I can open an &lt;a href="https://en.wikipedia.org/wiki/IGES"&gt;IGES
-file&lt;/a&gt; from 40 years ago. This means that the
-data can be used further throughout the building's physical lifespan.&lt;/p&gt;
-&lt;p&gt;This increased lifespan of the model has a significant ethical impact,
-because it allows the building to be validated against its initial design
-intent. This is to do with the concept of architectural liability. Whilst
-building system engineers may have performance based contracts, architects are
-simply not liable for the space that they design. When things don't work out and
-a space is unsuccessful, it is hard to pinpoint what went wrong, and how to
-improve it next time.&lt;/p&gt;
-&lt;p&gt;This means that the time taken for an architect to learn if his design is good
-or bad from concept phase to post-occupancy evaluation is a feedback loop of
-around 10 years. This makes it incredibly hard for architects to learn how to
-actually design better spaces for society. If the physical performance of all
-buildings are linked back to building element data, it will give people an
-opportunity to study deeper what makes good spaces for society, rather than
-making a very expensive gambling mistake with millions of dollars of investment,
-and trying better the next time.&lt;/p&gt;
-&lt;h2&gt;Open data stores higher quality data on things that matter&lt;/h2&gt;
-&lt;p&gt;It is well known that OpenBIM data improves the data quality by specifying
-standardised data structures. However, these are technical advantages, not
-ethical advantages. Where there is an ethical advantage is the amalgum and
-variety of interrelated data that OpenBIM can capture.&lt;/p&gt;
-&lt;p&gt;For example, most BIM users nowadays are doing little more than traditional 3D
-modeling that has been done for many decades, with a bit of metadata sprinkled
-on top. In fact, programs like Revit expose BIM data literally in the form of
-key-value metadata pairs, which pretends that a building is a 3D shape with some
-attributes.&lt;/p&gt;
-&lt;p&gt;This couldn't be further than the truth. Buildings are about relationships
-between objects and a merging of many disciplines which are politically
-controlled by many stakeholders. In OpenBIM, you can store everything from the
-prevailing wind direction, to exactly who is responsible for a building element,
-to the eutrophication per unit of specified equipment, all in the one BIM model.
-This variety of data that is combined in a structured way guides designers on
-what data is important to different parties.&lt;/p&gt;
-&lt;p&gt;This is vital because it allows people to capture the holistic network of
-relationships that a building truly is. Without this understanding, the barrier
-to analysing a side effect of a design change is a one week turnaround time by
-a disconnected model from a third-party consultant and a dead tree report that
-gets forgotten. This delay, isolated design process, and neverending game of
-catch-up and rework in the team to relay data inherently creates bad design,
-which is in turn bad for the environment.&lt;/p&gt;
-&lt;p&gt;Another impact on data quality is due to a side effect of better
-interoperability. Without vendor lock-in, specialised software can be used. This
-is important because the number of features a software has is usually inversely
-correlated with how good that software is at executing any particular feature.
-It would make much more sense if you could use a dedicated 3D modeling tool for
-3D modeling, use a dedicated data management tool for BIM data, and then link
-the two together using open data. This would also improve the quality of
-designs, because they could record the designers intent with much more fidelity
-than lower fidelity one-size-fits-all tool compromises.&lt;/p&gt;
-&lt;h2&gt;Open data is a prerequisite to human rights&lt;/h2&gt;
-&lt;p&gt;We don't often hear the wild claim that file formats are connected to human
-rights.  However, in the digital age and most of our lives invested in the
-digital sphere, our digital rights are synonymous with our human rights.&lt;/p&gt;
-&lt;p&gt;The digital world we live in has changed drastically since the birth of personal
-computers, and perhaps not quite for the better in some ways. I will invite you
-to read more about &lt;a href="https://thinkmoult.com/assets/../five-fundamental-facets-of-ethical-software.html"&gt;the five fundamental facets of ethical
-software&lt;/a&gt;, where I go
-into more detail. I describe some of the worrying trends in the virtual world,
-and how open data is one of the prerequisites to a solution.&lt;/p&gt;
-&lt;h2&gt;Open data is a public good&lt;/h2&gt;
-&lt;p&gt;Any building, even if it is designed, built, owned, and run by a private
-company, has public positive and negative externalities. Just as it is
-impossible to isolate any part of the earth from its interdependency on any
-other part of the earth, our buildings are no different. Yet in our daily
-practice, we so easily refer to "man-made" objects versus "natural" objects, and
-draw a thick red boundary line around our site bounary.&lt;/p&gt;
-&lt;p&gt;Some governments, such as the Australian government, have pushed for open-data
-standards on geoscience and GIS datasets. They do this because they realise that
-information about the city is a public good. If it is made available to
-everyone, everyone benefits - they can scrutinise the public realm, easily
-create new maps, census analysis, and proposals to change things.&lt;/p&gt;
-&lt;p&gt;Yet for some reason, public open data about the buildings which make up most of
-the built environment are not available. There is no public repository of BIM
-data with downloadable buildings. We can't find publicly accessible data of
-building resource usage, such as how much pollution each building is causing.
-As a society, shouldn't we be able to? The open-data logic to benefit the
-public bizarrely stops at the building scale. This should not be the case, as
-buildings are the most human scale of our environment, and so it matters the
-most.&lt;/p&gt;
-&lt;p&gt;Designing a building in an open-source fashion also fundamentally &lt;em&gt;changes who
-you are as a designer&lt;/em&gt;. As seen in the software industry, when you create
-software that is open-source, there is a level of care bestowed upon it because
-you are presenting it as a gift for the public, not as a product to be sold.
-This is reflected in the quality of the open-source thing that you create,
-because a part of your knows that you aren't just chasing a profit target,
-you're serving the public. I recall a firm called
-&lt;a href="http://openingdesign.com/"&gt;OpeningDesign&lt;/a&gt;, as well as the amazing &lt;a href="https://wikihouse.cc/"&gt;WikiHouse
-project&lt;/a&gt;, who I have had the privilege of working with
-Yorik van Havre on FreeCAD, which designs in the public domain.  Without open
-data, it is impossible to truly achieve this with truly open designs.&lt;/p&gt;
-&lt;p&gt;I wait for a day when it is legally required for all developments to be done
-transparently. For all BIM data to be open and available to all to investigate,
-criticise, and propose new ideas.&lt;/p&gt;
-&lt;p&gt;After all, it's &lt;em&gt;our world&lt;/em&gt;, so it should be &lt;em&gt;our data&lt;/em&gt;.&lt;/p&gt;
         </content>
     </entry>
     </feed>
