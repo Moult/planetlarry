@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-03T04:57:04</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-04T04:49:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>2026-06-01T18</title>
         <updated>2026-06-01T18</updated>
         <summary>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB wordpress site into a 20MB static site demonstrates this.</summary>
