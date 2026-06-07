@@ -1,9 +1,25 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-06T04:07:26</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-06-07T04:43:41</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-06-06T21</title>
+        <updated>2026-06-06T21</updated>
+        <summary>In the origin of the species, Darwin describes flat-fish as potentially evolved due to resting flat on the floor whilst young, craning their necks, and the ensuring skull deformation causing the eyes to migrate to one side. My rabbit has the habit of flopping on her side during feeding time and being showered with pellets whilst she licks the ones surrounding her head (honestly, she is spoilt). This is the beginning of the flat-rabbit species.</summary>
+        <content type="html">
+<p>In the origin of the species, Darwin describes flat-fish as potentially evolved due to resting flat on the floor whilst young, craning their necks, and the ensuring skull deformation causing the eyes to migrate to one side. My rabbit has the habit of flopping on her side during feeding time and being showered with pellets whilst she licks the ones surrounding her head (honestly, she is spoilt). This is the beginning of the flat-rabbit species.</p>
+        </content>
+    </entry>
+    <entry>
+        <title>2026-06-03T09</title>
+        <updated>2026-06-03T09</updated>
+        <summary>I am utterly disappointed that musical scores are not traditionally turing complete. If anybody has evidence to the contrary please contact me.</summary>
+        <content type="html">
+<p>I am utterly disappointed that musical scores are not traditionally turing complete. If anybody has evidence to the contrary please contact me.</p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-06-01T18</title>
         <updated>2026-06-01T18</updated>
-        <summary>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB wordpress site into a 20MB static site demonstrates this.</summary>
+        <summary>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB WordPress site into a 20MB static site demonstrates this.</summary>
         <content type="html">
-<p>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB wordpress site into a 20MB static site demonstrates this.</p>
+<p>In the past CMSes were needed for usability of managing websites. With AI, this is no longer the case, and the compression of OSArch's 300MB WordPress site into a 20MB static site demonstrates this.</p>
         </content>
     </entry>
     <entry>
@@ -4552,64 +4568,6 @@ green = (((Lu + Lv) / 2) * A1) + (1. - A1);
 0
 1 .25
 &lt;/code&gt;&lt;/pre&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Ten Smiles, an Android app to remind you to smile</title>
-        <link href="https://thinkmoult.com/ten-smiles-android-app-to-remind-you-to-smile.html" />
-        <id>https://thinkmoult.com/ten-smiles-android-app-to-remind-you-to-smile.html</id>
-        <updated>2019-04-26</updated>
-        <summary>Ten Smiles is a small, free, Android app that reminds you to smile 10 times each day. I wrote it for fun a few years ago.</summary>
-        <content type="html">
-
-&lt;p&gt;Ten Smiles was a concept Android app that would run in the background of your
-Android phone, and pop up randomly 10 times a day to remind you to smile. I
-wrote it a few years ago as a little programming exercise. Along with the text
-reminder, it would additional show a happy face with a funny moustache, and a
-horrible pun to accompany it with, all randomly chosen from a small repository
-of puns and faces which gets old real quick. Let's see an example reminder!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="An example smile reminder from the Ten Smiles app" src="https://thinkmoult.com/assets/ten-smiles-example.png"&gt;&lt;/p&gt;
-&lt;p&gt;Ten Smiles is pretty much plug and play. You just install the application from
-this &lt;a href="https://thinkmoult.com/assets/tensmiles.apk"&gt;Ten Smiles Android installation APK&lt;/a&gt;, and then toggle the
-"Enable Ten Smiles" option in the app, and hit save. It will automatically
-choose 10 random times each day roughly during non-sleeping hours, and will pop
-up by itself.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A small number of settings visible in the Ten Smiles app" src="https://thinkmoult.com/assets/ten-smiles-settings.png"&gt;&lt;/p&gt;
-&lt;p&gt;Unfortunately, I no longer have the source code for this project as it was
-merely an afternoon plaything a few years ago. However, I am not one for
-inserting tracking codes or malware into my software as others may do - this is
-evidenced by the static HTML nature of my blog.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>How to bulk convert PDFs to DXF or DWG</title>
-        <link href="https://thinkmoult.com/how-to-bulk-convert-pdf-to-dxf-or-dwg.html" />
-        <id>https://thinkmoult.com/how-to-bulk-convert-pdf-to-dxf-or-dwg.html</id>
-        <updated>2019-04-02</updated>
-        <summary>Inkscape and pstoedit can be used to convert between PDF, EPS, DXF, and DWG on the command line. This is very useful when bulk file conversions need to be done.</summary>
-        <content type="html">
-
-&lt;p&gt;Architectural, engineering, and construction drawings are usually produced in both PDF and DWG format. Often, a DWG is used for accurate scaling or inclusion in other programs. So if you only have a PDF, you might need to convert a PDF to a DXF or DWG.&lt;/p&gt;
-&lt;p&gt;If you want to &lt;a href="https://knowledge.autodesk.com/support/autocad/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-convert-a-PDF-to-a-DWG-in-AutoCAD.html"&gt;convert a PDF to a DWG&lt;/a&gt;, it is possible to do this in AutoCAD using the &lt;code&gt;pdfimport&lt;/code&gt; command. However, this is a manual process and will be slow when you have many files to convert.&lt;/p&gt;
-&lt;p&gt;Additionally, DWG is not an open data format. Using &lt;a href="https://thinkmoult.com/assets/../ethical-implications-of-openbim.html"&gt;non-open data formats in construction is not ethical&lt;/a&gt; and should be discouraged in the industry. Instead, a DXF file should be produced. A DXF is functionally equivalent to a DWG for 2D content, and can be opened in other software. It may be larger, as it is in ASCII format, but it can be compressed. If your DWG contains 3D data, it may be worth converting it into an OBJ instead, or ideally, an IFC file if it contains construction data.&lt;/p&gt;
-&lt;p&gt;To convert a PDF to a DXF, we will first convert from PDF to EPS (Encapsulated PostScript format), and then convert from EPS to DXF. You will require &lt;a href="https://inkscape.org/"&gt;Inkscape&lt;/a&gt;, a free and open-source vector editing program similar to Adobe Illustrator. You will also require &lt;a href="http://www.calvina.de/pstoedit/pstoedit.htm"&gt;pstoedit&lt;/a&gt;, which is an open-source command line PostScript conversion tool.&lt;/p&gt;
-&lt;p&gt;We will run the scripts using the command line, as it will be much faster than using a GUI. On Windows, you can run both commands using &lt;a href="https://www.cygwin.com/"&gt;cygwin&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;./inkscape.exe -z --export-eps=&amp;quot;file.eps&amp;quot; &amp;quot;file.pdf&amp;quot;
-pstoedit -f &amp;quot;dxf&amp;quot; &amp;quot;file.eps&amp;quot; &amp;quot;file.dxf&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Here is a simple shell script that converts all files in a folder called &lt;code&gt;pdf/&lt;/code&gt; into an output folder called &lt;code&gt;dxf/&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#!/bin/bash
-mkdir -p eps
-mkdir -p dxf
-for FILE in pdf/*.pdf; do
-    export BASEFILE=`basename &amp;quot;$FILE&amp;quot;`
-    echo &amp;quot;Processing $FILE&amp;quot;
-    ./inkscape.exe -z --export-eps=&amp;quot;eps/$BASEFILE&amp;quot; &amp;quot;pdf/$BASEFILE&amp;quot;
-    pstoedit -f &amp;quot;dxf&amp;quot; &amp;quot;eps/$BASEFILE&amp;quot; &amp;quot;dxf/$BASEFILE&amp;quot;
-done
-cd dxf/ &amp;amp;&amp;amp; rename &amp;quot;.pdf&amp;quot; &amp;quot;.dxf&amp;quot; *.pdf
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is worth mentioning that the &lt;a href="https://inkscape.org/doc/inkscape-man.html"&gt;Inkscape man page&lt;/a&gt; describes how to export to SVG format, and that &lt;code&gt;pstoedit&lt;/code&gt; also supports conversion to many other formats such as Adobe Illustrator files, plaintext, or even PowerPoint!&lt;/p&gt;
         </content>
     </entry>
     </feed>
