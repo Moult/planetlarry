@@ -1,4 +1,14 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-07-08T03:29:26</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-07-09T03:57:28</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>2026-07-09T08</title>
+        <link href="https://en.wikipedia.org/wiki/Experimental_evolution" />
+        <id>https://en.wikipedia.org/wiki/Experimental_evolution</id>
+        <updated>2026-07-09T08</updated>
+        <summary>[Experimental evolution](https://en.wikipedia.org/wiki/Experimental_evolution) makes for fascinating reading to demonstrate how evolution occurs, including the birth of a gene.</summary>
+        <content type="html">
+<p><a href="https://en.wikipedia.org/wiki/Experimental_evolution">Experimental evolution</a> makes for fascinating reading to demonstrate how evolution occurs, including the birth of a gene.</p>
+        </content>
+    </entry>
+    <entry>
         <title>2026-06-06T21</title>
         <updated>2026-06-06T21</updated>
         <summary>In the origin of the species, Darwin describes flat-fish as potentially evolved due to resting flat on the floor whilst young, craning their necks, and the ensuring skull deformation causing the eyes to migrate to one side. My rabbit has the habit of flopping on her side during feeding time and being showered with pellets whilst she licks the ones surrounding her head (honestly, she is spoilt). This is the beginning of the flat-rabbit species.</summary>
@@ -4419,155 +4429,6 @@ it as follows:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Some of the more reusable assets have been reshared and are available in the
 &lt;a href="https://radiance.thinkmoult.com/"&gt;free 3D Radiance model repository&lt;/a&gt;.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Creating grass and plants in Radiance</title>
-        <link href="https://thinkmoult.com/creating-grass-and-plants-in-radiance.html" />
-        <id>https://thinkmoult.com/creating-grass-and-plants-in-radiance.html</id>
-        <updated>2019-05-01</updated>
-        <summary>Radiance is seldom used for rendering detailed vegetation such as grass and plants. I introduce how to use common CG techniques to still achieve photorealistic grass in Radiance.</summary>
-        <content type="html">
-
-&lt;p&gt;Radiance is not often used to simulate fields of grass and heavily vegetated
-scenes like those often created by CG artists with other rendering engines. This
-is because exactly simulating the average luminance or illuminance on natural
-environments is not often required. This article will demonstrate how to render
-these types of scenes in Radiance.&lt;/p&gt;
-&lt;p&gt;The usual technique for rendering grass is to model some strands, and then place
-instances of those strands using an automatic system, such as a "hair",
-"particle", "duplivert", or "instancing" system that is provided with many
-modeling software such as Blender. Sometimes, the vegetation is purely a series
-of alpha-mapped plane. In other cases, such as for trees, the plant is generated
-and leaves appear at locations defined by an L-system or similar. All of these
-techniques can be used with Radiance.&lt;/p&gt;
-&lt;p&gt;As Radiance does not take shortcuts in its calculations, I would advise to
-minmise the polygons where necessary when rendering vegetation. With grass,
-don't model anything detailed. With groundcover and trees, use alpha mapped
-planes as much as possible.&lt;/p&gt;
-&lt;h2&gt;Bake all the vegetation into a single mesh&lt;/h2&gt;
-&lt;p&gt;The simplest approach is to "bake" the generated vegetation into a static mesh
-and export it as an OBJ, regardless of what generated it in the first place. The
-mesh can then be included in a typical manner as described by my &lt;a href="https://thinkmoult.com/assets/../basic-rendering-tutorial-radiance.html"&gt;basic Radiance
-beginners tutorial&lt;/a&gt;. Despite
-its simplicity, there are a few disadvantages of this approach: firstly, the
-created OBJ can become extremely large, it also does not conserve memory on
-repeated elements when rendering, and it is an all or nothing approach, it is
-hard to turn on and off elements. That said, it is very, very easy, and so I use
-this approach to create a planter bed in my &lt;a href="https://thinkmoult.com/assets/../photorealistic-rendering-with-radiance.html"&gt;living room Radiance render&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A baked planter bed mesh with many polygons rendered in Radiance" src="https://thinkmoult.com/assets/planter-bed.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;With Blender, there is a trick to export complex particle creations into a
-single mesh without needing to bake it first, by linking the particle object
-into a fresh file and then exporting an OBJ.&lt;/p&gt;
-&lt;h2&gt;Create many instances&lt;/h2&gt;
-&lt;p&gt;Another approach is to ask Radiance to copy and paste and object many times.
-Radiance has an &lt;code&gt;instance&lt;/code&gt; object, which places a precompiled octree into a
-scene. This conserves memory when rendering. Although it is tempting to create a
-single strand of grass and then instance it 10,000 times, I have found Radiance
-is not capable of dealing with this. I have found more than 500 instances of a
-single type of octree to cause Radiance to take a long time to prepare for
-rendering, as well as octrees of incredibly thin aspect ratio (i.e. a grass
-strand) to be very difficult for Radiance to handle.&lt;/p&gt;
-&lt;p&gt;That said, as long as you limit the instance to have a balanced aspect ratio,
-such as a patch of vegetation, and do not go overboard in the number of
-instances, then this is a valid technique. Here is an example of an instance you
-might create which is not too long or thin.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="An instance of a plant stem, which could be repeated many
-times" src="https://thinkmoult.com/assets/stem-instance.png"&gt;&lt;/p&gt;
-&lt;p&gt;The instance is then placed multiple times with different locations and
-rotations to build up complexity.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="An example of many tufts of ferns instanced to create a scene" src="https://thinkmoult.com/assets/instance-example.png"&gt;&lt;/p&gt;
-&lt;p&gt;In Blender, there is a very easy way to do this, using a technique known as
-&lt;em&gt;dupliverts&lt;/em&gt;. With this technique, a mesh is created where each vertex
-represents the origin of placing an instance. This Blender script automatically
-converts these vertices into Radiance instances:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;import bpy
-import math
-
-# Path to the octree
-octree = 'obj/bahia-grass.oct'
-n = 0
-with open('/tmp/particles.rad', 'w') as output:
-    for vertex in bpy.context.active_object.data.vertices:
-        output.write('void instance particle_{}\n5 {} -t {} {} {} \n0\n0\n\n'.format(
-            n,
-            octree,
-            vertex.co[0],
-            vertex.co[1],
-            vertex.co[2],
-        ))
-        n = n + 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This technique is especially useful when applied to groundcovers. A patch of
-groundcover is created, and then simply repeated a few times until it becomes
-convincing. I have released many types of plants in the &lt;a href="https://radiance.thinkmoult.com/"&gt;free Radiance model
-repository&lt;/a&gt; where you can download and quickly
-create vegetation yourself.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A patch of Bahia grass available in the free Radiance model
-repository" src="https://thinkmoult.com/assets/bahia-grass.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Using alpha mapped planes for textures&lt;/h2&gt;
-&lt;p&gt;Alpha mapped planes are a standard technique in the CG industry. Here is how to
-define it in Radiance. First, we define &lt;code&gt;diffuse-map&lt;/code&gt;, this is the diffuse
-texture that we will use for our object. Then, we will apply to this a plastic
-shader. Our plastic shader multiplies the RGB values of the &lt;code&gt;diffuse-map&lt;/code&gt; by 1.
-For more information about how to set a diffuse map, you can read &lt;a href="https://thinkmoult.com/assets/../use-macbethcal-to-calibrate-textures.html"&gt;how to use
-macbethcal to calibrate
-textures&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Then, &lt;code&gt;my-material&lt;/code&gt; is defined, which is what will be assigned to our actual
-object, using UV coordinates. An &lt;code&gt;alpha-mask.hdr&lt;/code&gt; is provided where white is
-visible and black is invisible. The &lt;code&gt;mixpict&lt;/code&gt; will mix between the &lt;code&gt;diffuse&lt;/code&gt;
-material and a &lt;code&gt;void&lt;/code&gt; (i.e. invisible) material, depending on the &lt;code&gt;grey&lt;/code&gt;
-function, which reads greyscale data from &lt;code&gt;alpha-mask.hdr&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;void colorpict diffuse-map
-7 red green blue diffuse-map.hdr . frac(Lu) frac(Lv)
-0
-0
-
-diffuse-map plastic diffuse
-0
-0
-5 1 1 1 0 0
-
-void mixpict my-material
-7 diffuse void grey alpha-mask.hdr . frac(Lu) frac(Lv)
-0
-0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Front and back face materials&lt;/h2&gt;
-&lt;p&gt;Plants are interesting from a material point of view because they often have a
-different material from the front face of leaves and the backface of leaves. For
-instance, the front face may be more specular or have a different colour.&lt;/p&gt;
-&lt;p&gt;This can be achieved in Radiance using a &lt;code&gt;mixfunc&lt;/code&gt; as follows, which mixes
-between the &lt;code&gt;frontface&lt;/code&gt; and &lt;code&gt;backface&lt;/code&gt; material, which is defined elsewhere.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;void mixfunc my-material
-4 frontface backface if(Rdot,1,0) .
-0
-0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;Creating variations in colour&lt;/h2&gt;
-&lt;p&gt;With autogenerated particle or hair systems, often colour can be varied. This
-can also somewhat be achieved in Radiance. One approach is to modify the
-instance script above to select from several preset octrees, each compiled with
-a different material. &lt;/p&gt;
-&lt;p&gt;Another approach is to use a calculation. Here is a crude example, saved as
-&lt;code&gt;random.cal&lt;/code&gt;, which pumps out a gradient of RGB along an objects local UV
-coordinates.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{ A1 = 0-1, where 0 has no variation and 1 varies the colour to 0}
-{
-red = (((Lu + Lv) / 2) * A1) + (1 - A1);
-green = (((Lu + Lv) / 2) * A1) + (1 - A1);
-blue = (((Lu + Lv) / 2) * A1) + (1 - A1);
-}
-red = (((Lu + Lv) / 2) * A1) + (1. - A1);
-blue = (((Lu + Lv) / 2) * A1) + (1. - A1);
-green = (((Lu + Lv) / 2) * A1) + (1. - A1);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;It is then applied as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;void colorfunc random-color
-4 red green blue random.cal
-0
-1 .25
-&lt;/code&gt;&lt;/pre&gt;
         </content>
     </entry>
     </feed>
