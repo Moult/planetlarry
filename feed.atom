@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-08-21T01:44:44</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-08-22T01:38:04</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>2026-07-25T17</title>
         <updated>2026-07-25T17</updated>
         <summary>From the unpublished notebooks of Stan Lee: the sea cucumber's self defence mechanism involves spewing out parts of its internal organs from its anus to ensnare the provoker. These organs expand by 20 times their original length and stick upon contact. It later grows new organs.</summary>
@@ -264,7 +264,7 @@
 		<id>http://fitzcarraldoblog.wordpress.com/?p=6747</id>
 		<updated>2025-09-04T14:59:43Z</updated>
 		<published>2025-09-04T14:51:02Z</published>
-		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ASRock" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ION330HT" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="nettop" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="SATA" />
+		<category scheme="https://fitzcarraldoblog.wordpress.com" term="Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Hardware" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="Lubuntu Linux" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ASRock" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="desktop environments" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="ION330HT" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="nettop" /><category scheme="https://fitzcarraldoblog.wordpress.com" term="SATA" />
 		<summary type="html">A couple of weeks after my previous post regarding the demise of my two legacy laptops, my legacy ASRock ION330HT nettop failed to boot. It seems bad luck does come in threes. In that post I described how I had connected the nettop&amp;#8217;s eSATA port to each of the 2.5&amp;#8243; HDDs salvaged from my two [&amp;#8230;]</summary>
 
 		
