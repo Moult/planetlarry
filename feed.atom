@@ -1,4 +1,57 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-06T04:10:35</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-07T04:09:52</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+        <title>dotfiles</title>
+        <link href="https://thinkmoult.com/dotfiles.html" />
+        <id>https://thinkmoult.com/dotfiles.html</id>
+        <updated>2026-08-25</updated>
+        <summary>A minimal set of dotfiles for quickly getting comfortable in Linux environments.</summary>
+        <content type="html">
+
+&lt;h2&gt;&lt;code&gt;~/.bashrc&lt;/code&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;export TERM=&amp;quot;xterm-256color&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;&lt;code&gt;~/.vimrc&lt;/code&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set number
+set relativenumber
+set path+=**
+set wildmenu
+set termguicolors
+filetype on
+filetype plugin on
+colorscheme desert
+
+call plug#begin()
+Plug 'junegunn/fzf', { 'do': { -&amp;gt; fzf#install() } }
+Plug 'junegunn/fzf.vim'
+call plug#end()
+
+let g:fzf_layout = { 'down': '40%' }
+&amp;quot; Use vi-keys to move across screen split
+map &amp;lt;C-J&amp;gt; &amp;lt;C-W&amp;gt;j
+map &amp;lt;C-K&amp;gt; &amp;lt;C-W&amp;gt;k
+map &amp;lt;C-H&amp;gt; &amp;lt;C-W&amp;gt;h
+map &amp;lt;C-L&amp;gt; &amp;lt;C-W&amp;gt;l
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;&lt;code&gt;~/.profile&lt;/code&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;# On some systems (e.g. Ubuntu) F10 to exit from mc doesn't go to the current directory
+alias mc='source /usr/lib/mc/mc-wrapper.sh'
+&lt;/code&gt;&lt;/pre&gt;
+        </content>
+    </entry>
+    <entry>
+        <title>2026-08-13T09</title>
+        <updated>2026-08-13T09</updated>
+    </entry>
+    <entry>
         <title>2026-07-25T17</title>
         <updated>2026-07-25T17</updated>
         <summary>From the unpublished notebooks of Stan Lee: the sea cucumber's self defence mechanism involves spewing out parts of its internal organs from its anus to ensnare the provoker. These organs expand by 20 times their original length and stick upon contact. It later grows new organs.</summary>
@@ -3987,133 +4040,6 @@ all readers to research, evaluate, and do the best you can, in your own way.&lt;
 &lt;p&gt;This far site placement is inherited by every single object spatially contained by the site. Any program which then parses the IFC to extract the geometry will have to deal with this, and the inability to deal with such large transformation magnitudes is a well known problem in the 3D industry. As a result, geometry gets unnecessarily "broken" and imports are unreliable. You can experience this yourself by importing an IFC into Blender which has CRS coordinates, or even attempting to import an IFC back into Revit: it won't be able to handle its own creation.&lt;/p&gt;
 &lt;p&gt;As a workaround, you can simply modify the &lt;code&gt;IfcLocalPlacement&lt;/code&gt; of the &lt;code&gt;IfcSite&lt;/code&gt; in a text editor before importing the IFC. After the import, you can then specify using native GIS features of your application how the origin point translates to a target CRS. Knowing the relationship of the &lt;code&gt;IfcSite&lt;/code&gt; coordinates above will help you specify the origin correctly. I tend to simply reset the value such that the origin point corresponds with the project base point. In simple scenarios this is &lt;code&gt;(0, 0, 0)&lt;/code&gt;, but sometimes it may have a further offset which you can calculate using the formula above. An alternative, simpler way is by finding the difference in coordinates between the &lt;code&gt;IfcSite&lt;/code&gt; and Revit's project base point, and making that the new &lt;code&gt;IfcSite&lt;/code&gt; local placement &lt;code&gt;Location&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This article should clarify all coordinate related concepts in BIM and Revit, and hopefully you can now use IFCs a bit more reliably across other software other than Revit.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Point cloud mesh reconstruction with metaballs</title>
-        <link href="https://thinkmoult.com/point-cloud-mesh-reconstruction-with-metaballs.html" />
-        <id>https://thinkmoult.com/point-cloud-mesh-reconstruction-with-metaballs.html</id>
-        <updated>2019-05-15</updated>
-        <summary>3D scanning results in a point cloud which often needs to be converted into a closed mesh surface. In this article I propose a new technique of mesh reconstruction using metaballs.</summary>
-        <content type="html">
-
-&lt;p&gt;When you scan an object, a point cloud is generated of the object in space. This
-point cloud is often converted into a mesh using a process known as mesh
-reconstruction. The mesh can then be textured, retopologised, and so on.&lt;/p&gt;
-&lt;p&gt;The mesh reconstruction process often uses one of a few famous algorithms out
-there. One example is Poisson mesh reconstruction, I believe originally
-developed at Microsoft, which looks at the normals or orientations of each of
-the points in the point cloud. These normals help it determine the boundary
-between outside the scanned object and inside the scanned object. The boundary
-is then converted into an interpolated surface, which forms the new mesh.&lt;/p&gt;
-&lt;p&gt;The Poisson reconstruction algorithm isn't always the best choice. For example,
-when you don't know the orientations of the points, and it is not easy to derive
-it, then Poisson wouldn't fare too well. If you also have lots of thin shapes,
-such as leaves on a tree, Poisson will struggle. But that's ok, since there are
-other algorithms out there, each with their pros and cons.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Poisson creating bulbous forms when reconstructing
-vegetation" src="https://thinkmoult.com/assets/bulbous-poisson-reconstruction.png"&gt;&lt;/p&gt;
-&lt;p&gt;In 2015, I dealt with the issue of having to reconstruct meshes from extremely
-sparse or poor scans with holes. I'd like to share that there is a another
-approach to mesh reconstruction using &lt;em&gt;metaballs&lt;/em&gt;. I haven't seen others use
-this method, so I thought I'd share it here.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Metaballs"&gt;Metaballs&lt;/a&gt; define a surface usually
-based on the distance from the centroid of each point. Each point represents a
-blob-like sphere, and when you get points close to each other, just as water
-droplets would join one another, these blobs would coalesce into a form.&lt;/p&gt;
-&lt;p&gt;Therefore, if you convert each point in a point cloud into a metaball and adjust
-its threshold to overlap with the average density of the scan, you can convert
-your scan into a very blobby mesh. This type of reconstruction works well on
-thin shapes, but does not attempt to patch or interpolate over any holes in the
-scan (which can be good if your scan is particularly bad or misleading). It also
-does not need to consider the entire point set at once or bother with point
-orientation. With this technique, it is possible to reconstruct in batches or
-zones and then stitch the results together.&lt;/p&gt;
-&lt;p&gt;Let's see an example, on a particularly nasty photogrammetry dataset where some
-parts were very well scanned and other parts were very badly scanned, with a
-relatively sparse point cloud.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="A metaball reconstruction on the left, with a Poisson reconstruction of the
-same dataset on the right" src="https://thinkmoult.com/assets/metaball-mesh-reconstruction.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;If you want to try your own reconstruction, you can test this reconstruction
-very easily with Blender. Blender supports metaballs out of the box. Simply
-create a metaball, and set it to be the duplivert object of a point cloud. No
-coding skills required and no proprietary software needed.&lt;/p&gt;
-&lt;p&gt;Let's see another reconstruction with the Stanford bunny.  If you want to
-recreate this, you will first need to &lt;a href="https://stackoverflow.com/questions/30783446/how-can-i-read-transform-the-range-images-of-the-stanford-bunny-ply-files"&gt;reorientate the source point cloud of the
-Stanford
-bunny&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Metaball reconstruction of the Stanford
-bunny" src="https://thinkmoult.com/assets/stanford-bunny-metaball-reconstruction.png"&gt;&lt;/p&gt;
-&lt;p&gt;On the left is the metaball reconstruction, and on the right is the zipper
-high resolution reconstruction provided by Stanford (with normals smoothed). As
-you can see, the metaball reconstruction results in a pretty detailed mesh. You
-can also see artifacts of blobbiness and the bunny on the left is marginally
-fatter due to the metaball radius.&lt;/p&gt;
-&lt;p&gt;Happy scanning! If you are aware of research with this technique, please send me
-an email and I'd love to hear about it.&lt;/p&gt;
-        </content>
-    </entry>
-    <entry>
-        <title>Robotic wire cutting toolpath generation with Blender</title>
-        <link href="https://thinkmoult.com/robotic-wire-cutting-toolpath-generation-with-blender.html" />
-        <id>https://thinkmoult.com/robotic-wire-cutting-toolpath-generation-with-blender.html</id>
-        <updated>2019-05-06</updated>
-        <summary>Most toolpath generation focuses on minimising material wastage, tool wear, and robot movements. This article describes an alternative approach that uses the U/V direction of a surface, its edge loops, and edge rings, to intuitively describe a toolpath.</summary>
-        <content type="html">
-
-&lt;p&gt;In a previous post, I talked about &lt;a href="https://thinkmoult.com/assets/../robotic-stereotomy-stone-diamond-wire-cutting.html"&gt;using a diamond wire to cut
-stone&lt;/a&gt;. The wire
-cutter would be attached to a 6-axis robot arm which would then be pushed
-through the stone. If you haven't yet read it, read it now.&lt;/p&gt;
-&lt;p&gt;Today, I want to talk about the technical approach used.&lt;/p&gt;
-&lt;p&gt;The robotic arm that performed the cutting was a German KUKA robot, which processes a
-proprietary toolpath instruction language known as KRL (KUKA Robot Language).
-Given that there was no open-hardware robot available, this had to do. KUKA
-robots come with a similarly proprietary simulation software, which is
-horrendously expensive. Luckily, there is a cheaper, but mostly functionally
-equivalent simulator called KukaPRC (some funky behaviour, but quite well done)
-written for Grasshopper, which is the visual scripting language used by Rhino.&lt;/p&gt;
-&lt;p&gt;The visual scripting language comes with a set of nodes for drag-and-drop
-create-your-own toolpath. Although one valid approach was to parameterise the
-shape of each block and use Grasshopper to generate toolpaths, we had a wider
-goal of more generic toolpath generation due to strangely cut shapes.&lt;/p&gt;
-&lt;p&gt;The good news is that every shape's surface is already parameterised in the form
-of the surface UV. Given a clean mesh topology with a lot of quads, we figured
-that the wire could simply follow edge rings, starting with U, an following V,
-until it had carved up the required shape.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Edge loops and edge rings which create a natural
-toolpath" src="https://thinkmoult.com/assets/edge-loops-and-edge-rings.png"&gt;&lt;/p&gt;
-&lt;p&gt;The KRL syntax in its simplest form supports an XYZ for the toolhead location,
-along with a tool axis vector and tool "up" vector. The XYZ is all relative to a
-datum which is calibrated at the beginning. The datum would be an arbitrary
-point on the jig which would hold the stone. Each edge in the edge ring would
-represent the toolhead axis, and the midpoint of the edge would represent the
-toolhead XYZ location. The "up" vector would be logically chosen to minimise
-robot arm clashes.&lt;/p&gt;
-&lt;p&gt;I used Blender with a quick Python script to create the necessary vectors for
-the toolpath. Seams were used to denote where the cuts stopped and started,
-making the workflow similar to how any existing texture artist would work. This
-would also resolve any issues with poles made in the surface topology.&lt;/p&gt;
-&lt;p&gt;Using Blender with quad-meshes created a very fluid workflow between scanning
-rocks, retopologising, and generating toolpaths. The Blender script would then
-spit out a KRL file which we could feed into the Grasshopper-based simulator, as
-a final sanity check before actually carving up stone.&lt;/p&gt;
-&lt;p&gt;Because actually carving stone is slow and expensive, we would prototype with a
-hot-wire cutter (resistance wire with a haphazardous power pack tied to it) and
-styrofoam. If you clamp the foam down at the bottom and use dense foam, it sort
-of doesn't move around too much.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Carving foam using toolpaths generated from edge
-loops" src="https://thinkmoult.com/assets/cutting-foam-block.png"&gt;&lt;/p&gt;
-&lt;p&gt;By the time I write this post, all the languages, robot APIs and scripts would
-be deprecated, and so is probably not worth digging up and sharing. However, the
-principle of edge loops and seams as a workflow was really quite intuitive, and
-thought the concept was worth a post.&lt;/p&gt;
-&lt;p&gt;Most toolpath generation techniques, however, do not have intuitiveness to the
-user as their top priority. Most also do not take into account surface striation
-patterns. Most would have a much more sensible goal such as minimising tool
-wear, or material wastage, or robot movement efficiency. This approach does
-absolutely none of that and is therefore useless for any proper production.
-Still, pretty slick for rapid prototyping.&lt;/p&gt;
         </content>
     </entry>
     </feed>
