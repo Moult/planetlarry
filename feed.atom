@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-11T04:14:21</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-12T04:13:12</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>dotfiles</title>
         <link href="https://thinkmoult.com/dotfiles.html" />
         <id>https://thinkmoult.com/dotfiles.html</id>
