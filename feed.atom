@@ -1,4 +1,4 @@
-<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-16T04:27:55</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
+<feed xmlns:ns0="http://purl.org/syndication/thread/1.0" xmlns="http://www.w3.org/2005/Atom"><title>Planet Larry</title><link href="https://planetlarry.org" /><updated>2026-09-17T04:33:39</updated><author><name>Larry the Cow</name></author><id>https://planetlarry.org/</id><entry>
         <title>A compendium of facts from Life on Earth</title>
         <link href="https://thinkmoult.com/compendium-facts-life-on-earth.html" />
         <id>https://thinkmoult.com/compendium-facts-life-on-earth.html</id>
@@ -78,45 +78,14 @@
         <summary>A minimal set of dotfiles for quickly getting comfortable in Linux environments.</summary>
         <content type="html">
 
-&lt;h2&gt;&lt;code&gt;~/.bashrc&lt;/code&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;export TERM=&amp;quot;xterm-256color&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;&lt;code&gt;~/.vimrc&lt;/code&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set autoindent
-set smartindent
-set incsearch
-set hlsearch
-set ignorecase
-set smartcase
-set number
-set relativenumber
-set path+=**
-set wildmenu
-set termguicolors
-filetype on
-filetype plugin on
-colorscheme desert
-
-call plug#begin()
-Plug 'junegunn/fzf', { 'do': { -&amp;gt; fzf#install() } }
-Plug 'junegunn/fzf.vim'
-call plug#end()
-
-let g:fzf_layout = { 'down': '40%' }
-&amp;quot; Use vi-keys to move across screen split
-map &amp;lt;C-J&amp;gt; &amp;lt;C-W&amp;gt;j
-map &amp;lt;C-K&amp;gt; &amp;lt;C-W&amp;gt;k
-map &amp;lt;C-H&amp;gt; &amp;lt;C-W&amp;gt;h
-map &amp;lt;C-L&amp;gt; &amp;lt;C-W&amp;gt;l
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2&gt;&lt;code&gt;~/.profile&lt;/code&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;# On some systems (e.g. Ubuntu) F10 to exit from mc doesn't go to the current directory
-alias mc='source /usr/lib/mc/mc-wrapper.sh'
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;These dotfiles represent the minimum configuration for a fresh Linux
+environment for me to work comfortably. They cover things like fuzzy &lt;code&gt;cd&lt;/code&gt; and
+command history, &lt;code&gt;tmux&lt;/code&gt; bindings, and &lt;code&gt;vim&lt;/code&gt; setup. They are intentionally
+spartan and boring. Enjoy :)&lt;/p&gt;
+&lt;p&gt;The one exception to a vanilla setup is &lt;a href="https://github.com/junegunn/fzf"&gt;fzf&lt;/a&gt;
+along with &lt;a href="https://github.com/junegunn/fzf.vim"&gt;fzf.vim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The full files live at
+&lt;a href="https://github.com/Moult/dotfiles"&gt;github.com/Moult/dotfiles&lt;/a&gt;.&lt;/p&gt;
         </content>
     </entry>
     <entry>
